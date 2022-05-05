@@ -1,0 +1,3104 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Assembly-CSharp-Editor-firstpass.dll:
+    - VLB.EditorData
+    Assembly-CSharp-firstpass.dll:
+    - BroTools.UILayer
+    - GameCore.UIManager
+    - I2.Loc.LanguageSourceAsset
+    - I2.Loc.ResourceManager
+    - VLB.ConfigOverride
+    - VLB.ShaderGenerator
+    - VLB.VolumetricLightBeam
+    Assembly-CSharp.dll:
+    - GameCore.HangarOrbit
+    - GameCore.UI.UIDrag
+    Cinemachine.dll:
+    - Cinemachine.CinemachineBlenderSettings
+    - Cinemachine.CinemachineBrain
+    - Cinemachine.CinemachineComposer
+    - Cinemachine.CinemachinePipeline
+    - Cinemachine.CinemachineVirtualCamera
+    StompyRobot.SRDebugger.dll:
+    - SRDebugger.Scripts.DebuggerTabController
+    - SRDebugger.Settings
+    - SRDebugger.UI.Controls.ConsoleEntryView
+    - SRDebugger.UI.Controls.ConsoleLogControl
+    - SRDebugger.UI.Controls.Data.ActionControl
+    - SRDebugger.UI.Controls.Data.BoolControl
+    - SRDebugger.UI.Controls.Data.EnumControl
+    - SRDebugger.UI.Controls.Data.NumberControl
+    - SRDebugger.UI.Controls.Data.ReadOnlyControl
+    - SRDebugger.UI.Controls.Data.StringControl
+    - SRDebugger.UI.Controls.InfoBlock
+    - SRDebugger.UI.Controls.MultiTapButton
+    - SRDebugger.UI.Controls.PinEntryControl
+    - SRDebugger.UI.Controls.ProfilerEnableControl
+    - SRDebugger.UI.Controls.ProfilerGraphAxisLabel
+    - SRDebugger.UI.Controls.ProfilerGraphControl
+    - SRDebugger.UI.Controls.ProfilerMemoryBlock
+    - SRDebugger.UI.Controls.ProfilerMonoBlock
+    - SRDebugger.UI.Controls.SRTabButton
+    - SRDebugger.UI.DebugPanelRoot
+    - SRDebugger.UI.MobileMenuController
+    - SRDebugger.UI.Other.BugReportPopoverRoot
+    - SRDebugger.UI.Other.BugReportSheetController
+    - SRDebugger.UI.Other.CategoryGroup
+    - SRDebugger.UI.Other.ConfigureCanvasFromSettings
+    - SRDebugger.UI.Other.ConsoleTabQuickViewControl
+    - SRDebugger.UI.Other.DebugPanelBackgroundBehaviour
+    - SRDebugger.UI.Other.DockConsoleController
+    - SRDebugger.UI.Other.ErrorNotifier
+    - SRDebugger.UI.Other.FloatOverElement
+    - SRDebugger.UI.Other.HandleManager
+    - SRDebugger.UI.Other.LoadingSpinnerBehaviour
+    - SRDebugger.UI.Other.PinnedUIRoot
+    - SRDebugger.UI.Other.SRTab
+    - SRDebugger.UI.Other.SRTabController
+    - SRDebugger.UI.Other.SafeAreaSizer
+    - SRDebugger.UI.Other.ScrollSettingsBehaviour
+    - SRDebugger.UI.Other.SetLayerFromSettings
+    - SRDebugger.UI.Other.TriggerRoot
+    - SRDebugger.UI.Other.VersionTextBehaviour
+    - SRDebugger.UI.ProfilerFPSLabel
+    - SRDebugger.UI.Tabs.BugReportTabController
+    - SRDebugger.UI.Tabs.ConsoleTabController
+    - SRDebugger.UI.Tabs.InfoTabController
+    - SRDebugger.UI.Tabs.OptionsTabController
+    - SRDebugger.UI.Tabs.ProfilerTabController
+    StompyRobot.SRF.dll:
+    - SRF.UI.CopyLayoutElement
+    - SRF.UI.CopyPreferredSize
+    - SRF.UI.CopySizeIntoLayoutElement
+    - SRF.UI.DragHandle
+    - SRF.UI.FlashGraphic
+    - SRF.UI.InheritColour
+    - SRF.UI.Layout.FlowLayoutGroup
+    - SRF.UI.Layout.VirtualVerticalLayoutGroup
+    - SRF.UI.LongPressButton
+    - SRF.UI.ResponsiveEnable
+    - SRF.UI.ResponsiveResize
+    - SRF.UI.SRNumberButton
+    - SRF.UI.SRNumberSpinner
+    - SRF.UI.SRRetinaScaler
+    - SRF.UI.SRSpinner
+    - SRF.UI.SRText
+    - SRF.UI.ScrollToBottomBehaviour
+    - SRF.UI.StyleComponent
+    - SRF.UI.StyleRoot
+    - SRF.UI.StyleSheet
+    - SRF.UI.Unselectable
+    Unity.Rider.Editor.dll:
+    - Packages.Rider.Editor.RiderScriptEditorData
+    - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.TextMeshPro.dll:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimatorControllerTool
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.EventTrigger
+    - UnityEngine.EventSystems.PhysicsRaycaster
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.ContentSizeFitter
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.GridLayoutGroup
+    - UnityEngine.UI.HorizontalLayoutGroup
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.InputField
+    - UnityEngine.UI.LayoutElement
+    - UnityEngine.UI.Mask
+    - UnityEngine.UI.RectMask2D
+    - UnityEngine.UI.ScrollRect
+    - UnityEngine.UI.Scrollbar
+    - UnityEngine.UI.Shadow
+    - UnityEngine.UI.Slider
+    - UnityEngine.UI.Text
+    - UnityEngine.UI.Toggle
+    - UnityEngine.UI.VerticalLayoutGroup
+  sceneClasses:
+    Assets/Scenes/MainMenu.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1486}
+    - Class: 114
+      Script: {instanceID: 1580}
+    - Class: 114
+      Script: {instanceID: 1594}
+    - Class: 114
+      Script: {instanceID: 1638}
+    - Class: 114
+      Script: {instanceID: 1648}
+    - Class: 114
+      Script: {instanceID: 1666}
+    - Class: 114
+      Script: {instanceID: 1720}
+    - Class: 114
+      Script: {instanceID: 1996}
+    - Class: 114
+      Script: {instanceID: 2006}
+    - Class: 114
+      Script: {instanceID: 2298}
+    - Class: 114
+      Script: {instanceID: 2410}
+    - Class: 114
+      Script: {instanceID: 2576}
+    - Class: 114
+      Script: {instanceID: 2618}
+    - Class: 114
+      Script: {instanceID: 2760}
+    - Class: 114
+      Script: {instanceID: 2770}
+    - Class: 114
+      Script: {instanceID: 2846}
+    - Class: 114
+      Script: {instanceID: 3000}
+    - Class: 114
+      Script: {instanceID: 3104}
+    - Class: 114
+      Script: {instanceID: 3366}
+    - Class: 114
+      Script: {instanceID: 3560}
+    - Class: 114
+      Script: {instanceID: 3692}
+    - Class: 114
+      Script: {instanceID: 3728}
+    - Class: 114
+      Script: {instanceID: 3770}
+    - Class: 114
+      Script: {instanceID: 3788}
+    - Class: 114
+      Script: {instanceID: 4050}
+    - Class: 114
+      Script: {instanceID: 4386}
+    - Class: 114
+      Script: {instanceID: 23056}
+    - Class: 114
+      Script: {instanceID: 23078}
+    - Class: 114
+      Script: {instanceID: 23086}
+    - Class: 114
+      Script: {instanceID: 23094}
+    - Class: 114
+      Script: {instanceID: 23130}
+    - Class: 114
+      Script: {instanceID: 23136}
+    - Class: 114
+      Script: {instanceID: 23142}
+    - Class: 114
+      Script: {instanceID: 23150}
+    - Class: 114
+      Script: {instanceID: 23194}
+    - Class: 114
+      Script: {instanceID: 23200}
+    - Class: 114
+      Script: {instanceID: 23246}
+    - Class: 114
+      Script: {instanceID: 23258}
+    - Class: 114
+      Script: {instanceID: 23278}
+    - Class: 114
+      Script: {instanceID: 23284}
+    - Class: 114
+      Script: {instanceID: 23288}
+    - Class: 114
+      Script: {instanceID: 23292}
+    - Class: 114
+      Script: {instanceID: 23310}
+    - Class: 114
+      Script: {instanceID: 23392}
+    - Class: 114
+      Script: {instanceID: 23394}
+    - Class: 114
+      Script: {instanceID: 23478}
+    - Class: 114
+      Script: {instanceID: 23506}
+    - Class: 114
+      Script: {instanceID: 23568}
+    - Class: 114
+      Script: {instanceID: 23590}
+    - Class: 114
+      Script: {instanceID: 23658}
+    - Class: 114
+      Script: {instanceID: 23668}
+    - Class: 114
+      Script: {instanceID: 23684}
+    - Class: 114
+      Script: {instanceID: 23772}
+    - Class: 114
+      Script: {instanceID: 23852}
+    - Class: 114
+      Script: {instanceID: 23916}
+    - Class: 114
+      Script: {instanceID: 23932}
+    - Class: 114
+      Script: {instanceID: 23936}
+    - Class: 114
+      Script: {instanceID: 23948}
+    - Class: 114
+      Script: {instanceID: 23956}
+    - Class: 114
+      Script: {instanceID: 23966}
+    - Class: 114
+      Script: {instanceID: 23998}
+    - Class: 114
+      Script: {instanceID: 24048}
+    - Class: 114
+      Script: {instanceID: 24054}
+    - Class: 114
+      Script: {instanceID: 24150}
+    - Class: 114
+      Script: {instanceID: 24154}
+    - Class: 114
+      Script: {instanceID: 24164}
+    - Class: 114
+      Script: {instanceID: 24236}
+    - Class: 114
+      Script: {instanceID: 24244}
+    - Class: 114
+      Script: {instanceID: 24252}
+    - Class: 114
+      Script: {instanceID: 24260}
+    - Class: 114
+      Script: {instanceID: 24268}
+    - Class: 114
+      Script: {instanceID: 24274}
+    - Class: 114
+      Script: {instanceID: 24282}
+    - Class: 114
+      Script: {instanceID: 24402}
+    - Class: 114
+      Script: {instanceID: 24418}
+    - Class: 114
+      Script: {instanceID: 24460}
+    - Class: 114
+      Script: {instanceID: 24502}
+    - Class: 114
+      Script: {instanceID: 24542}
+    - Class: 114
+      Script: {instanceID: 24544}
+    - Class: 114
+      Script: {instanceID: 24602}
+    - Class: 114
+      Script: {instanceID: 24610}
+    - Class: 114
+      Script: {instanceID: 24660}
+    - Class: 114
+      Script: {instanceID: 24676}
+    - Class: 114
+      Script: {instanceID: 24822}
+    - Class: 114
+      Script: {instanceID: 24978}
+    - Class: 114
+      Script: {instanceID: 24982}
+    - Class: 114
+      Script: {instanceID: 24992}
+    - Class: 114
+      Script: {instanceID: 25052}
+    - Class: 114
+      Script: {instanceID: 25062}
+    - Class: 114
+      Script: {instanceID: 25098}
+    - Class: 114
+      Script: {instanceID: 25144}
+    - Class: 114
+      Script: {instanceID: 25162}
+    - Class: 114
+      Script: {instanceID: 25188}
+    - Class: 114
+      Script: {instanceID: 25330}
+    - Class: 114
+      Script: {instanceID: 25344}
+    - Class: 114
+      Script: {instanceID: 25362}
+    - Class: 114
+      Script: {instanceID: 25364}
+    - Class: 114
+      Script: {instanceID: 25394}
+    - Class: 114
+      Script: {instanceID: 25408}
+    - Class: 114
+      Script: {instanceID: 25592}
+    - Class: 114
+      Script: {instanceID: 25596}
+    - Class: 114
+      Script: {instanceID: 25660}
+    - Class: 114
+      Script: {instanceID: 25676}
+    - Class: 114
+      Script: {instanceID: 25716}
+    - Class: 114
+      Script: {instanceID: 25728}
+    - Class: 114
+      Script: {instanceID: 25730}
+    - Class: 114
+      Script: {instanceID: 25786}
+    - Class: 114
+      Script: {instanceID: 30502}
+    - Class: 114
+      Script: {instanceID: 30522}
+    - Class: 114
+      Script: {instanceID: 30524}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 117
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 225
+      Script: {instanceID: 0}
+    - Class: 258
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: 5ab533713adae59372fb3e10a585c186
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: a6e561615949734e9f12f9b61661f43e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: 77aaaaa51f7a8d8ff333a879741e47d2
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalAsset
+  - hash:
+      serializedVersion: 2
+      Hash: bcaee4c2a83047257b5f47d6ed264b75
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 0dbc3be398b4869a5c8d0d8481ee402c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: 6bc76e17f0d5e93f3eea7f5a2fe227f3
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: 21a9c6dbf300fc1f6dc15ca7e2c39a37
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: 300fd99066f8c288e85f5e81ce65fe34
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 800c50acba124432abb4cf0d47202e06
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: 699619b86d9359741a4f58540298c80b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: 91d258529db2b5060a913f2afcea1a21
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner
+    className: PlaymodeTestsController
+  - hash:
+      serializedVersion: 2
+      Hash: c1d728126ff1918728036c59106d32b2
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: a1aa98c78061c6f03a8c124cda576e67
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: cf9f5cf2c3145a37ac07f00e50e460f9
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: cc4274b586df3c02688bac01b88bd16c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: fe64a45214940b510a0ec79c96d43498
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: f336e086360abe49a3323e5f1583c35a
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioTrack
+  - hash:
+      serializedVersion: 2
+      Hash: a74405a4829a834d107a0c6e072719ed
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 760787567e1b60d64a3e421ab83ee14a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestRunner.Utils
+    className: TestRunCallbackListener
+  - hash:
+      serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: f40fedccd4adbc76605bea6d67537e4b
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: a306e12d896ddcca949923c805691027
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 748dd2a2a28da4e618912da5ac45684b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: f7858108331b563fb41b80b729297acd
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 5dea360fb0b147724ac344e6f399c2f3
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 8e6ceabfd38a184413d69b7db56c89cc
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools
+    className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: 0fd6822f6177297bd0eb4d83cc7a9030
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 69415240821be7986b27e72bf9609a30
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: 4fd8bf02e3089425d3502e26c44ba31a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayerQuitHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: da4cc51a02ce84afe2cecd27cfe6997a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: bd3cf68c8964d3c66d1c43f4f98508c9
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: 87ff43d2baf3385cba327d8f803a4ebb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: RemoteTestResultSender
+  - hash:
+      serializedVersion: 2
+      Hash: 134322c9293c1896357cce271b819ce4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: a81d4c2c1cf3ad164d277d927a193679
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: a5781dc71a671b1ad2b38de19f24b71f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: aba7b2852ef61d175dd9602e7723d5e5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 3165968ba45c74472d279ba04455fccb
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: 908b3077da284d11de0450423ca1808e
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 040dd48e3a027d5424519a5fa2009df4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 0fb27be807aa299702f28ad0bcad1f46
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: ef5c43f921427d03730f6ea4c848f07d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: 87ad3705a58f19c47136728d4a6e9c47
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: 6980e81ddc615a861309d2d659cc3760
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: fd68d84f33fad85aac38f2739c0ee270
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: e7a73f5f78ba6445195ec23b74a1ce2d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 8220b46879dc5e37db1b940c938f5744
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 7ab0e790220bdca831fdd886b339039d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: abf1930d8126d0b2e00e9449129a0190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Facebook.Unity.dll
+    namespaceName: Facebook.Unity.Mobile.Android
+    className: AndroidFacebookGameObject
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Facebook.Unity.dll
+    namespaceName: Facebook.Unity.Mobile.Android
+    className: AndroidFacebookLoader
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Facebook.Unity.dll
+    namespaceName: Facebook.Unity
+    className: AsyncRequestString
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Facebook.Unity.dll
+    namespaceName: Facebook.Unity.Canvas
+    className: CanvasFacebookGameObject
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Facebook.Unity.dll
+    namespaceName: Facebook.Unity.Canvas
+    className: CanvasFacebookLoader
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Facebook.Unity.dll
+    namespaceName: Facebook.Unity
+    className: CodelessCrawler
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Facebook.Unity.dll
+    namespaceName: Facebook.Unity
+    className: CodelessUIInteractEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Facebook.Unity.dll
+    namespaceName: Facebook.Unity.Editor
+    className: EditorFacebookGameObject
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Facebook.Unity.dll
+    namespaceName: Facebook.Unity.Editor
+    className: EditorFacebookLoader
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Facebook.Unity.dll
+    namespaceName: Facebook.Unity.Editor.Dialogs
+    className: EmptyMockDialog
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Facebook.Unity.dll
+    namespaceName: Facebook.Unity
+    className: FacebookScheduler
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Facebook.Unity.dll
+    namespaceName: Facebook.Unity
+    className: FB
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Facebook.Unity.dll
+    namespaceName: Facebook.Unity
+    className: FBGamingServices
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Facebook.Unity.dll
+    namespaceName: Facebook.Unity.Gameroom
+    className: GameroomFacebookGameObject
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Facebook.Unity.dll
+    namespaceName: Facebook.Unity.Gameroom
+    className: GameroomFacebookLoader
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Facebook.Unity.dll
+    namespaceName: Facebook.Unity.Mobile.IOS
+    className: IOSFacebookGameObject
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Facebook.Unity.dll
+    namespaceName: Facebook.Unity.Mobile.IOS
+    className: IOSFacebookLoader
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Facebook.Unity.dll
+    namespaceName: Facebook.Unity.Canvas
+    className: JsBridge
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Facebook.Unity.dll
+    namespaceName: Facebook.Unity.Editor.Dialogs
+    className: MockLoginDialog
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Facebook.Unity.dll
+    namespaceName: Facebook.Unity.Editor.Dialogs
+    className: MockShareDialog
+  - hash:
+      serializedVersion: 2
+      Hash: 1cc31c864646ce2d3b11ce76e200c165
+    assemblyName: Facebook.Unity.Settings.dll
+    namespaceName: Facebook.Unity.Settings
+    className: FacebookSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 704dcd31abc789439bc3f3cd10b58c2b
+    assemblyName: DOTween.dll
+    namespaceName: DG.Tweening.Core
+    className: DOTweenComponent
+  - hash:
+      serializedVersion: 2
+      Hash: 179648033371456981a3c08cb9f47477
+    assemblyName: DOTween.dll
+    namespaceName: DG.Tweening.Core
+    className: DOTweenSettings
+  - hash:
+      serializedVersion: 2
+      Hash: ce3b842cdad88bcea706236d1d1c8842
+    assemblyName: StompyRobot.SRDebugger.dll
+    namespaceName: SRDebugger.Scripts
+    className: DebuggerTabController
+  - hash:
+      serializedVersion: 2
+      Hash: 469b177251d9ca3e648cc02572f06b5f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: InputFocus
+  - hash:
+      serializedVersion: 2
+      Hash: 824e8d4cb47ffd88ddf959dbd4526585
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: 
+    className: DynamicJoystick
+  - hash:
+      serializedVersion: 2
+      Hash: d21cc92a423ac0b473a4745ee195ac46
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: UILineTextureRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: b7635c33d851d37846d7ea2546ee951c
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: PaginationManager
+  - hash:
+      serializedVersion: 2
+      Hash: 70fdf0c45f9a0ac65440c1aac6ab29bb
+    assemblyName: StompyRobot.SRDebugger.dll
+    namespaceName: SRDebugger.UI.Tabs
+    className: ProfilerTabController
+  - hash:
+      serializedVersion: 2
+      Hash: 1378a63db11d592cb2e9259a463f438d
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: ToolTip
+  - hash:
+      serializedVersion: 2
+      Hash: 3cad7ea7a25fc19ad0b9cd7d3f4c12b9
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: MenuManager
+  - hash:
+      serializedVersion: 2
+      Hash: 919d4ec806294752c73072e4322fc332
+    assemblyName: StompyRobot.SRF.dll
+    namespaceName: SRF.UI
+    className: SRSpinner
+  - hash:
+      serializedVersion: 2
+      Hash: 3c6b7478bf9bd7753d019e48e59c8539
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: GameCore
+    className: UIManager
+  - hash:
+      serializedVersion: 2
+      Hash: bc8a1530dec3cd785aef92fcaa72f178
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: VerticalScrollSnap
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: RescaleDragPanel
+  - hash:
+      serializedVersion: 2
+      Hash: 4b52bf19d8c527479b96511688ca4103
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: I2.Loc
+    className: LocalizeTarget_UnityStandard_SpriteRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: StompyRobot.SRDebugger.dll
+    namespaceName: SRDebugger.Services.Implementation
+    className: PinEntryServiceImpl
+  - hash:
+      serializedVersion: 2
+      Hash: 1b8811ee3e4e7f67d1b1c7db75b479b5
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions.ColorPicker
+    className: ColorSliderImage
+  - hash:
+      serializedVersion: 2
+      Hash: 8ddb2623fc29de5a8a3c3b5b94031b3b
+    assemblyName: StompyRobot.SRDebugger.dll
+    namespaceName: SRDebugger.UI.Other
+    className: HandleManager
+  - hash:
+      serializedVersion: 2
+      Hash: 9c0cc4877aa6f484e8840e43c3b7f441
+    assemblyName: StompyRobot.SRDebugger.dll
+    namespaceName: SRDebugger.UI
+    className: DebugPanelRoot
+  - hash:
+      serializedVersion: 2
+      Hash: 9e3bdfbc2235d01ef36c198ad8bc4f87
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Dreamteck.Splines
+    className: SplineUser
+  - hash:
+      serializedVersion: 2
+      Hash: 6e6f3639d10f90690ab9a0c93eb857d8
+    assemblyName: StompyRobot.SRF.dll
+    namespaceName: SRF.UI
+    className: SRNumberSpinner
+  - hash:
+      serializedVersion: 2
+      Hash: 13e770af2c1264abbed1d9572ce87f22
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: UILineRendererList
+  - hash:
+      serializedVersion: 2
+      Hash: be986b5675ac984ad6f7c0c90a888f66
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: VLB
+    className: VolumetricLightBeam
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: ReorderableListContent
+  - hash:
+      serializedVersion: 2
+      Hash: 2854d59488a01dc5d089f5f11ad8597f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: CurvedText
+  - hash:
+      serializedVersion: 2
+      Hash: eef3a293008e8a9aa7449e62f01da025
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: I2.Loc
+    className: LocalizeTarget_UnityStandard_MeshRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: 040dd48e3a027d5424519a5fa2009df4
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: ScrollRectEx
+  - hash:
+      serializedVersion: 2
+      Hash: 996977a9259e9736e70f85072a0990bc
+    assemblyName: StompyRobot.SRF.dll
+    namespaceName: SRF.UI
+    className: CopyLayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: 7387b4bcb1f060da993adc7e3f926249
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Dreamteck.Splines
+    className: SplineMorph
+  - hash:
+      serializedVersion: 2
+      Hash: b8c9a68fd4b2584bcc9e43ba3c6c004f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: DropDownList
+  - hash:
+      serializedVersion: 2
+      Hash: dbdb19a6fca20363c57a5526a984818c
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: UICornerCut
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: StompyRobot.SRDebugger.dll
+    namespaceName: SRDebugger.Scripts.Internal
+    className: SRScriptRecompileHelper
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Facebook.Unity.Example
+    className: LogView
+  - hash:
+      serializedVersion: 2
+      Hash: ce669872a2be11bc686ea22961d8a3bb
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: 
+    className: Joystick
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: StompyRobot.SRF.dll
+    namespaceName: SRF.UI
+    className: Unselectable
+  - hash:
+      serializedVersion: 2
+      Hash: 633ca76bbb64915521480156ff4c8d41
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Dreamteck.Splines
+    className: LengthCalculator
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: NicerOutline
+  - hash:
+      serializedVersion: 2
+      Hash: 11bdd61587db747672b66c52442395d8
+    assemblyName: StompyRobot.SRDebugger.dll
+    namespaceName: SRDebugger.UI.Controls
+    className: ProfilerGraphAxisLabel
+  - hash:
+      serializedVersion: 2
+      Hash: c63f4f3d4ecfdae60ce4d1895c9626da
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Dreamteck.Splines
+    className: SplineTracer
+  - hash:
+      serializedVersion: 2
+      Hash: 743ffa367456b12d1aaf372710bcc3b8
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: InputFieldEnterSubmit
+  - hash:
+      serializedVersion: 2
+      Hash: b34ed8770215e5c6b34b15435dd2db30
+    assemblyName: StompyRobot.SRF.dll
+    namespaceName: SRF.UI
+    className: FlashGraphic
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: StompyRobot.SRDebugger.dll
+    namespaceName: SRDebugger.Services.Implementation
+    className: BugReportApiService
+  - hash:
+      serializedVersion: 2
+      Hash: 6a6f771fd48810ffeb40d2667a5dcf36
+    assemblyName: StompyRobot.SRF.dll
+    namespaceName: SRF.UI
+    className: InheritColour
+  - hash:
+      serializedVersion: 2
+      Hash: e0c3f8237e386d500b89992825058850
+    assemblyName: StompyRobot.SRDebugger.dll
+    namespaceName: SRDebugger.UI.Controls.Data
+    className: BoolControl
+  - hash:
+      serializedVersion: 2
+      Hash: 1920905c44faac9987a2e90635e581a6
+    assemblyName: StompyRobot.SRF.dll
+    namespaceName: SRF.UI.Layout
+    className: VirtualVerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: VLB
+    className: PolygonHelper
+  - hash:
+      serializedVersion: 2
+      Hash: 996b05679b315b005827dc13f6438f7b
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: Stepper
+  - hash:
+      serializedVersion: 2
+      Hash: 87524dda343f3dc05450ddd588daa785
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: BroTools
+    className: UILayer
+  - hash:
+      serializedVersion: 2
+      Hash: 7299a528424874bcf6b5736b5305ac37
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.AI
+    className: NavMeshModifierVolume
+  - hash:
+      serializedVersion: 2
+      Hash: 9100547033569930e0cda353d347c3bb
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: UI_MagneticInfiniteScroll
+  - hash:
+      serializedVersion: 2
+      Hash: af596be9be034123390a8fe2b11945ef
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: CurvedLayout
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: UIScreenEffect
+  - hash:
+      serializedVersion: 2
+      Hash: 2f6dd1d0b3d32e442c424ee860bca4e6
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions.ColorPicker
+    className: SVBoxSlider
+  - hash:
+      serializedVersion: 2
+      Hash: 07d38aa1bef8e5d843516a6e6f0c119d
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: VLB
+    className: EffectFlicker
+  - hash:
+      serializedVersion: 2
+      Hash: 7bb02911a4e04d0ebc77cfe0d5bdb3d2
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: MonoSpacing
+  - hash:
+      serializedVersion: 2
+      Hash: f4bc0f6c2e0223db048691c386d5c7e4
+    assemblyName: StompyRobot.SRF.dll
+    namespaceName: SRF.UI
+    className: SRNumberButton
+  - hash:
+      serializedVersion: 2
+      Hash: 3dcc2b1f224d8bcd3c8f27f7043e81fd
+    assemblyName: StompyRobot.SRDebugger.dll
+    namespaceName: SRDebugger.UI.Tabs
+    className: BugReportTabController
+  - hash:
+      serializedVersion: 2
+      Hash: b95c8ad4cd677821cb9a0e8da49f4e33
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: ReorderableListElement
+  - hash:
+      serializedVersion: 2
+      Hash: f5e43bd4a5118c0002bcbb8339a34305
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI
+    className: ExtensionsToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 6078eec3507ea7b64ac93d516111b1e7
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: Gradient
+  - hash:
+      serializedVersion: 2
+      Hash: 8824e2ae622413c9997cbbb1a573e80a
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: Gradient2
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: StompyRobot.SRDebugger.dll
+    namespaceName: SRDebugger.Services.Implementation
+    className: KeyboardShortcutListenerService
+  - hash:
+      serializedVersion: 2
+      Hash: 8d4458b476a9a4dd8df843a849fcfffa
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.AI
+    className: NavMeshSurface
+  - hash:
+      serializedVersion: 2
+      Hash: ce669872a2be11bc686ea22961d8a3bb
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: 
+    className: FixedJoystick
+  - hash:
+      serializedVersion: 2
+      Hash: e263aac50929dc27021c883eb45adc19
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCore.UI
+    className: UIDrag
+  - hash:
+      serializedVersion: 2
+      Hash: 38dd3aae2704e9cf57176183070a3a2b
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: Accordion
+  - hash:
+      serializedVersion: 2
+      Hash: c9e9fc23f3f963004e549b5159829b96
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: I2.Loc
+    className: LocalizeTarget_UnityUI_Image
+  - hash:
+      serializedVersion: 2
+      Hash: 9c58f22357bb027f9a931cdfedc3faba
+    assemblyName: StompyRobot.SRDebugger.dll
+    namespaceName: SRDebugger.UI.Controls
+    className: MultiTapButton
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Facebook.Unity.Example
+    className: DialogShare
+  - hash:
+      serializedVersion: 2
+      Hash: 9dac16f3efc511835ac976dfae55f580
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: 
+    className: VariableJoystick
+  - hash:
+      serializedVersion: 2
+      Hash: d240af5381bd30c7807458e84311ea03
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: VLB
+    className: EffectPulse
+  - hash:
+      serializedVersion: 2
+      Hash: 7344fbb3e347af77c301d43615e2c199
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Dreamteck.Splines
+    className: Node
+  - hash:
+      serializedVersion: 2
+      Hash: 8406b30e14dc938e3d10b65b8b586383
+    assemblyName: StompyRobot.SRF.dll
+    namespaceName: SRF.UI
+    className: ContentFitText
+  - hash:
+      serializedVersion: 2
+      Hash: 88a886bc03d974fd5a17daa19cf4fb58
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: HoverTooltip
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Dreamteck.Splines
+    className: ObjectControllerCustomRuleBase
+  - hash:
+      serializedVersion: 2
+      Hash: 3ec335d7a1668746d68adc0b916be6bd
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: ReorderableList
+  - hash:
+      serializedVersion: 2
+      Hash: e53985f985e254decbee02efa8cb7e67
+    assemblyName: StompyRobot.SRF.dll
+    namespaceName: SRF.UI
+    className: CopySizeIntoLayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: AppsFlyerSDK
+    className: AppsFlyer
+  - hash:
+      serializedVersion: 2
+      Hash: f40fedccd4adbc76605bea6d67537e4b
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: NonDrawingGraphic
+  - hash:
+      serializedVersion: 2
+      Hash: 818e85acc8f8219982c9e488a164495e
+    assemblyName: StompyRobot.SRDebugger.dll
+    namespaceName: SRDebugger.UI.Other
+    className: ConsoleTabQuickViewControl
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: StompyRobot.SRDebugger.dll
+    namespaceName: SRDebugger.Services.Implementation
+    className: DebugTriggerImpl
+  - hash:
+      serializedVersion: 2
+      Hash: 33ae35ab191cc06a6df42ca81a768341
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: I2.Loc
+    className: ResourceManager
+  - hash:
+      serializedVersion: 2
+      Hash: 370d09de561f1935f6b1c0e84999f9a8
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: BroTools
+    className: UIElementAnimated
+  - hash:
+      serializedVersion: 2
+      Hash: e53436846a36718ba7390a071ab2bd9d
+    assemblyName: StompyRobot.SRDebugger.dll
+    namespaceName: SRDebugger.UI.Tabs
+    className: InfoTabController
+  - hash:
+      serializedVersion: 2
+      Hash: b474d6331783864a4f4f41cd2727638d
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: SoftMaskScript
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: StompyRobot.SRDebugger.dll
+    namespaceName: SRDebugger.Profiler
+    className: ProfilerServiceImpl
+  - hash:
+      serializedVersion: 2
+      Hash: ef0bfc2322df44a1beef695c2e73bd0d
+    assemblyName: StompyRobot.SRF.dll
+    namespaceName: SRF.UI
+    className: DragHandle
+  - hash:
+      serializedVersion: 2
+      Hash: a08fd2c2e9d45a1244229785d59b1969
+    assemblyName: StompyRobot.SRDebugger.dll
+    namespaceName: SRDebugger.UI.Controls.Data
+    className: ReadOnlyControl
+  - hash:
+      serializedVersion: 2
+      Hash: 80f33c41ac038a68caa889dc6d9f2369
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Dreamteck.Splines
+    className: SplineMesh
+  - hash:
+      serializedVersion: 2
+      Hash: af884d6f5a89d1781a5459cd0dc1049d
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Dreamteck.Splines
+    className: PolygonColliderGenerator
+  - hash:
+      serializedVersion: 2
+      Hash: 6f832d7b0cf8219ed53ca59e92583bf7
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: CardStack2D
+  - hash:
+      serializedVersion: 2
+      Hash: 3bd51ae59f8e450fa98d23506e7f34de
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: TextPic
+  - hash:
+      serializedVersion: 2
+      Hash: cce1aec46e9d01e069967a53a4b4fcf4
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: TooltipTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: a975314d2dd8dd63f25b632001996682
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: SelectionBox
+  - hash:
+      serializedVersion: 2
+      Hash: de1aa9adba972394bbf036116fbc9ae6
+    assemblyName: StompyRobot.SRDebugger.dll
+    namespaceName: SRDebugger.UI
+    className: ProfilerFPSLabel
+  - hash:
+      serializedVersion: 2
+      Hash: 1f7f696c74958f9b9044d6f8c867049f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: BoundTooltipTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 0f1366cb6d57fc98586edf20f841d37b
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Dreamteck.Splines
+    className: MeshGenerator
+  - hash:
+      serializedVersion: 2
+      Hash: e444c20694a53b9dc1bc9a76df645aab
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: ComboBox
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Facebook.Unity.Example
+    className: AppRequests
+  - hash:
+      serializedVersion: 2
+      Hash: 3f62801b48b3a1be3b068d9997dc5f47
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: UICircle
+  - hash:
+      serializedVersion: 2
+      Hash: 6ec6cc47f0b4d3d7e0f4c5ee0bae2a8a
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: CardExpanding3D
+  - hash:
+      serializedVersion: 2
+      Hash: feb1dd78c64d0654cec01ad29127cc70
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: VLB
+    className: SkewingHandle
+  - hash:
+      serializedVersion: 2
+      Hash: 88114dfd04865a8787a8d5947fc4323a
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: UIScrollToSelection
+  - hash:
+      serializedVersion: 2
+      Hash: 7bb2e3c3230c10c06d4297b3e2101568
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: UIHighlightable
+  - hash:
+      serializedVersion: 2
+      Hash: 4cd524824706c08bd8fe024ab9c29709
+    assemblyName: StompyRobot.SRDebugger.dll
+    namespaceName: SRDebugger.UI.Controls.Data
+    className: EnumControl
+  - hash:
+      serializedVersion: 2
+      Hash: c99a87d8853a15ef5e98243e747fa577
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: ContentScrollSnapHorizontal
+  - hash:
+      serializedVersion: 2
+      Hash: bc8a1530dec3cd785aef92fcaa72f178
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: ScrollSnapBase
+  - hash:
+      serializedVersion: 2
+      Hash: e58801b5fe26c1d2aa604d0067007e50
+    assemblyName: StompyRobot.SRF.dll
+    namespaceName: SRF.UI
+    className: ResponsiveResize
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: UnityStandardAssets.Water
+    className: WaterBasic
+  - hash:
+      serializedVersion: 2
+      Hash: 3fb9681fa772d390d6fb1a0898b85200
+    assemblyName: StompyRobot.SRF.dll
+    namespaceName: SRF.UI
+    className: StyleRoot
+  - hash:
+      serializedVersion: 2
+      Hash: fc35b6cf32e3dcc2899fa5fba4222ede
+    assemblyName: StompyRobot.SRDebugger.dll
+    namespaceName: SRDebugger.UI.Tabs
+    className: ConsoleTabController
+  - hash:
+      serializedVersion: 2
+      Hash: 5edb0056ed9ab11b65e93f830e75d6ed
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: I2.Loc
+    className: LocalizationParamsManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: I2.Loc
+    className: CoroutineManager
+  - hash:
+      serializedVersion: 2
+      Hash: dd817c5b2dc3b3819b13da2d5e1ead55
+    assemblyName: StompyRobot.SRDebugger.dll
+    namespaceName: SRDebugger.UI.Controls
+    className: ConsoleEntryView
+  - hash:
+      serializedVersion: 2
+      Hash: 13e770af2c1264abbed1d9572ce87f22
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: UILineRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: dde29d16786525fb2319b65b37c5d132
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: I2.Loc
+    className: LanguageSourceAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 699619b86d9359741a4f58540298c80b
+    assemblyName: StompyRobot.SRF.dll
+    namespaceName: SRF.UI
+    className: SRText
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: UISoftAdditiveEffect
+  - hash:
+      serializedVersion: 2
+      Hash: 040dd48e3a027d5424519a5fa2009df4
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: MultiTouchScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: 55cbb67aec96e0bbcbee3354979f274c
+    assemblyName: StompyRobot.SRDebugger.dll
+    namespaceName: SRDebugger.UI.Controls.Data
+    className: StringControl
+  - hash:
+      serializedVersion: 2
+      Hash: 51f8d470cac09a8e32d2d547963d8efc
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: RescalePanel
+  - hash:
+      serializedVersion: 2
+      Hash: 1fe3dfb66840021080c4917a7e9e57e7
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI
+    className: ReturnKeyTriggersButton
+  - hash:
+      serializedVersion: 2
+      Hash: 5da3824b252ffc5aa56dba291f0b5a45
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Dreamteck.Splines
+    className: ObjectBender
+  - hash:
+      serializedVersion: 2
+      Hash: e5de32bad6c0aa44d214b236b80edb4e
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Dreamteck.Splines
+    className: TubeGenerator
+  - hash:
+      serializedVersion: 2
+      Hash: dcbd48be88755cfedfad8eae441bd15a
+    assemblyName: StompyRobot.SRDebugger.dll
+    namespaceName: SRDebugger.UI.Controls
+    className: ProfilerMonoBlock
+  - hash:
+      serializedVersion: 2
+      Hash: 8fe6e9c1b4a575c9f76992d36dd64f10
+    assemblyName: StompyRobot.SRDebugger.dll
+    namespaceName: SRDebugger.UI.Other
+    className: DebugPanelBackgroundBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: e0b614b39f8fd5b4de14ca722f48e79f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: I2.Loc
+    className: SetLanguage
+  - hash:
+      serializedVersion: 2
+      Hash: e5ee43ede19111e51b78dbbe3af736a9
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: UI_TweenScale
+  - hash:
+      serializedVersion: 2
+      Hash: 363130441472646d5b995a5386b173bf
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions.ColorPicker
+    className: ColorLabel
+  - hash:
+      serializedVersion: 2
+      Hash: f06e3b2b2f9c55cfea72c954f24e54e6
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: VLB_Samples
+    className: CameraToggleBeamVisibility
+  - hash:
+      serializedVersion: 2
+      Hash: 0c78f51dfef1bc60e8c44b24510a613a
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: VLB_Samples
+    className: FreeCameraController
+  - hash:
+      serializedVersion: 2
+      Hash: e709540eeab44e0a072da4c8ff694992
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: UIParticleSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: StompyRobot.SRDebugger.dll
+    namespaceName: SRDebugger.Services.Implementation
+    className: DebugPanelServiceImpl
+  - hash:
+      serializedVersion: 2
+      Hash: e6fee2b7f670b408027d018343c6d11d
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: VLB
+    className: Config
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: Segment
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: PPIViewer
+  - hash:
+      serializedVersion: 2
+      Hash: 737a19db869bacb007bc3ae8f3e006ab
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: VLB_Samples
+    className: LightGenerator
+  - hash:
+      serializedVersion: 2
+      Hash: 86b2e309b4704ac5f31bb9ce5486fc30
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: I2.Loc
+    className: LocalizeTarget_UnityStandard_Child
+  - hash:
+      serializedVersion: 2
+      Hash: 9e27f44bbf48228f203a37254d40f8ae
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: 
+    className: JoystickSetterExample
+  - hash:
+      serializedVersion: 2
+      Hash: 0d16df4dde7c99bb5a08bf442259bb7d
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: UIVerticalScroller
+  - hash:
+      serializedVersion: 2
+      Hash: e6fee2b7f670b408027d018343c6d11d
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: VLB
+    className: ConfigOverride
+  - hash:
+      serializedVersion: 2
+      Hash: 291990c2cc57f4bf910341f66f034a54
+    assemblyName: StompyRobot.SRDebugger.dll
+    namespaceName: SRDebugger.UI.Other
+    className: SafeAreaSizer
+  - hash:
+      serializedVersion: 2
+      Hash: a0daa48bd719164c697d4fbe58781f2d
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: I2.Loc
+    className: CustomLocalizeCallback
+  - hash:
+      serializedVersion: 2
+      Hash: beb6129147e4d60997f0a874979240c0
+    assemblyName: StompyRobot.SRDebugger.dll
+    namespaceName: SRDebugger.UI.Controls
+    className: ProfilerGraphControl
+  - hash:
+      serializedVersion: 2
+      Hash: 1604e7fb554335592eaca500fbbe54c5
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: TerrainStitch
+    className: TerrainNeighbours
+  - hash:
+      serializedVersion: 2
+      Hash: c6f53ba986c1ed9da1c4f1bfec656901
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions.ColorPicker
+    className: ColorPickerPresets
+  - hash:
+      serializedVersion: 2
+      Hash: fefb468d0ed403c583ac8876634b46be
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: I2.Loc
+    className: LocalizeTarget_UnityStandard_TextMesh
+  - hash:
+      serializedVersion: 2
+      Hash: e7fc668b7ead6dcb45fc5f8eaaa81586
+    assemblyName: StompyRobot.SRDebugger.dll
+    namespaceName: SRDebugger.UI.Other
+    className: SRTabController
+  - hash:
+      serializedVersion: 2
+      Hash: ec21d9da1c8de1707e7e8309c85f4fdc
+    assemblyName: StompyRobot.SRDebugger.dll
+    namespaceName: SRDebugger.UI.Controls
+    className: InfoBlock
+  - hash:
+      serializedVersion: 2
+      Hash: c913c1a650d9fa5fb48d6e06dcf86e99
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: UIFlippable
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: I2.Loc
+    className: AutoChangeCultureInfo
+  - hash:
+      serializedVersion: 2
+      Hash: 430b167f39bff224603edb4558287b52
+    assemblyName: StompyRobot.SRDebugger.dll
+    namespaceName: SRDebugger.UI.Other
+    className: VersionTextBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: a09283975be625059400764cdb7c7008
+    assemblyName: StompyRobot.SRF.dll
+    namespaceName: SRF.UI
+    className: StyleComponent
+  - hash:
+      serializedVersion: 2
+      Hash: 7a5f8b137805475785ffc6eb5844777a
+    assemblyName: StompyRobot.SRDebugger.dll
+    namespaceName: SRDebugger.UI.Other
+    className: LoadingSpinnerBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 9fcd121324bb8d4f3fc7e707e9420533
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Dreamteck.Splines
+    className: PathGenerator
+  - hash:
+      serializedVersion: 2
+      Hash: da6a4edaee127dc7a98bb1a3864f1acd
+    assemblyName: StompyRobot.SRF.dll
+    namespaceName: SRF.UI
+    className: LongPressButton
+  - hash:
+      serializedVersion: 2
+      Hash: 5d995cff0a62a7ac59e5c43d03670396
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions.ColorPicker
+    className: ColorSampler
+  - hash:
+      serializedVersion: 2
+      Hash: 2b19be13f00df62e6d4d4f5539bcad51
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.AI
+    className: NavMeshModifier
+  - hash:
+      serializedVersion: 2
+      Hash: a72b59fc029116362b3317d54b5ec7e0
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: TiltWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 4fd1e6b0613626f6097bf7fc0adc0656
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: I2.Loc
+    className: LocalizeTarget_UnityUI_RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: c786f2d98c803eb9611d2a4e6ca117c1
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: VLB
+    className: TriggerZone
+  - hash:
+      serializedVersion: 2
+      Hash: 6b14cffb2d808923e1de8d4079108568
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: UIScrollToSelectionXY
+  - hash:
+      serializedVersion: 2
+      Hash: b1b96c086c7e746f27d3a98d2eb3de51
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: UI_Knob
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: StepperSide
+  - hash:
+      serializedVersion: 2
+      Hash: bc8a1530dec3cd785aef92fcaa72f178
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: HorizontalScrollSnap
+  - hash:
+      serializedVersion: 2
+      Hash: 01d566f57af4edca516ee5e957c6e2fa
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: ScrollRectTweener
+  - hash:
+      serializedVersion: 2
+      Hash: fb3258ac0551bd9b54c1a64ae6ba406b
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: Scroller
+  - hash:
+      serializedVersion: 2
+      Hash: 79cb458601d45c0b113d89d8ac9aa465
+    assemblyName: StompyRobot.SRDebugger.dll
+    namespaceName: SRDebugger.UI.Tabs
+    className: OptionsTabController
+  - hash:
+      serializedVersion: 2
+      Hash: b2094546ca2b3f38f928fd55bea1b188
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: BoundTooltipItem
+  - hash:
+      serializedVersion: 2
+      Hash: 7c9805135b958a33f559db1acf549a3b
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Dreamteck.Splines
+    className: SplineComputer
+  - hash:
+      serializedVersion: 2
+      Hash: 9a3a84d0d0e074b55bdbe6bb9b15ad21
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: CUIGraphic
+  - hash:
+      serializedVersion: 2
+      Hash: 97db757bf21ee949af3049234b323ede
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AppsFlyerObjectScript
+  - hash:
+      serializedVersion: 2
+      Hash: cac042ad349b36b497ef26702aebf046
+    assemblyName: Assembly-CSharp-Editor-firstpass.dll
+    namespaceName: VLB
+    className: EditorData
+  - hash:
+      serializedVersion: 2
+      Hash: f02c4c0b873fe670ea00032296aebcc7
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Dreamteck.Splines
+    className: SplineRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: b2871318d6c9f47d2eebb6c4f794240a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GameCore
+    className: HangarOrbit
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: 
+    className: TestCompression
+  - hash:
+      serializedVersion: 2
+      Hash: b5f96340fea0e2a8503f633fea327f30
+    assemblyName: StompyRobot.SRF.dll
+    namespaceName: SRF.UI
+    className: SRRetinaScaler
+  - hash:
+      serializedVersion: 2
+      Hash: df6e8769057450dcb489d90e3e234e8d
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: UIPolygon
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: UILinearDodgeEffect
+  - hash:
+      serializedVersion: 2
+      Hash: a918853fdf9bf09ae602840eab219543
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: VLB
+    className: DynamicOcclusionRaycasting
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: BestFitOutline
+  - hash:
+      serializedVersion: 2
+      Hash: e4558f95bb4d42ea31e63b5d2014bdd0
+    assemblyName: StompyRobot.SRDebugger.dll
+    namespaceName: SRDebugger.UI
+    className: MobileMenuController
+  - hash:
+      serializedVersion: 2
+      Hash: 87438c529dfe3cfec41f9840529e3a0e
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: CUIBezierCurve
+  - hash:
+      serializedVersion: 2
+      Hash: 45169e0c369c5d43026ff4e6e4cf3447
+    assemblyName: StompyRobot.SRF.dll
+    namespaceName: SRF.UI.Layout
+    className: FlowLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: a932b1739377ba26c734200dae4fe8a9
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: I2.Loc
+    className: Localize
+  - hash:
+      serializedVersion: 2
+      Hash: 9a4445781ea307b2960994f046ce64a7
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions.ColorPicker
+    className: ColorPickerControl
+  - hash:
+      serializedVersion: 2
+      Hash: 9c5433928e68d50a728cc493075afffe
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Dreamteck.Splines
+    className: SplineProjector
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: ExampleSelectable
+  - hash:
+      serializedVersion: 2
+      Hash: 72a58c632891ffdc1c8b6760f06fe26c
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: CUIImage
+  - hash:
+      serializedVersion: 2
+      Hash: ecf216fa596c844d3e2918abe4f4486c
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: I2.Loc
+    className: LocalizeTarget_TextMeshPro_UGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: StompyRobot.SRDebugger.dll
+    namespaceName: SRDebugger.Profiler
+    className: ProfilerLateUpdateListener
+  - hash:
+      serializedVersion: 2
+      Hash: cacffd2b9d40725093354bead87fef12
+    assemblyName: StompyRobot.SRDebugger.dll
+    namespaceName: SRDebugger.UI.Other
+    className: FloatOverElement
+  - hash:
+      serializedVersion: 2
+      Hash: b12d2106695c89317864efdf5bcfbe63
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: UISelectableExtension
+  - hash:
+      serializedVersion: 2
+      Hash: 64fa399de7b3c0070e3d690e31db0a92
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: ScrollRectLinker
+  - hash:
+      serializedVersion: 2
+      Hash: bf4698a3b70ae92d7166ab31c3de7991
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: CylinderText
+  - hash:
+      serializedVersion: 2
+      Hash: a53fdc33a8d6522314e993951c9d8acd
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: VLB
+    className: DynamicOcclusionDepthBuffer
+  - hash:
+      serializedVersion: 2
+      Hash: 9bc44e4f708daaf26cf3adc9512bcc44
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: CardPopup2D
+  - hash:
+      serializedVersion: 2
+      Hash: f8b3396d58490f4f27e501e317d1b596
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: DragCorrector
+  - hash:
+      serializedVersion: 2
+      Hash: 0e6446e63ad29f87b634bb4edde841ef
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: 
+    className: FloatingJoystick
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: I2.Loc
+    className: RegisterGlobalParameters
+  - hash:
+      serializedVersion: 2
+      Hash: 0c4edaeec34f80151aaeab73cbab6455
+    assemblyName: StompyRobot.SRDebugger.dll
+    namespaceName: SRDebugger.UI.Controls.Data
+    className: NumberControl
+  - hash:
+      serializedVersion: 2
+      Hash: cdd2bbdcf2df8a8e4d7eb587e683288d
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: 
+    className: BroTweener
+  - hash:
+      serializedVersion: 2
+      Hash: 8e04c6dddd0f208fe9e4d741eaed24f6
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Dreamteck.Splines
+    className: EdgeColliderGenerator
+  - hash:
+      serializedVersion: 2
+      Hash: fd9b6d804a2cf66852f46e89cfc7e8bd
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: I2.Loc
+    className: LocalizeTarget_TextMeshPro_Label
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: VLB_Samples
+    className: CheckIfInsideBeam
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: ScrollSnapScrollbarHelper
+  - hash:
+      serializedVersion: 2
+      Hash: 59527166f60be76e5f83f2c45788300b
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: SelectableScaler
+  - hash:
+      serializedVersion: 2
+      Hash: f7b07c2c934837c2f7835d73416ad215
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: CooldownButton
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: VLB
+    className: BeamGeometry
+  - hash:
+      serializedVersion: 2
+      Hash: 9c40977d7e6f787dc61dc5138b1c462b
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: ShineEffector
+  - hash:
+      serializedVersion: 2
+      Hash: e8f2308d837e9634dd38133aeabe8fc1
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Dreamteck.Splines
+    className: ObjectController
+  - hash:
+      serializedVersion: 2
+      Hash: 75a59c0b6a78ab2a1360cb38772ade04
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions.ColorPicker
+    className: ColorPickerTester
+  - hash:
+      serializedVersion: 2
+      Hash: 0864ba88186fba4b57acdadc1bcd3dd4
+    assemblyName: StompyRobot.SRDebugger.dll
+    namespaceName: SRDebugger.UI.Other
+    className: TriggerRoot
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: StompyRobot.SRDebugger.dll
+    namespaceName: SRDebugger.UI.Other
+    className: SetLayerFromSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 22ea9524ba549500c81d4224beca40a3
+    assemblyName: StompyRobot.SRDebugger.dll
+    namespaceName: SRDebugger
+    className: Settings
+  - hash:
+      serializedVersion: 2
+      Hash: 3ba2f926df0217a97e44f2c0e68f65c2
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: ReorderableListDebug
+  - hash:
+      serializedVersion: 2
+      Hash: ad40e8588bf2220077c7b62bca07c916
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: ShineEffect
+  - hash:
+      serializedVersion: 2
+      Hash: 9e3bdfbc2235d01ef36c198ad8bc4f87
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Dreamteck.Splines
+    className: BlankUser
+  - hash:
+      serializedVersion: 2
+      Hash: b5766674c4c4d78c8ce41b304faab6d9
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Dreamteck.Splines
+    className: WaveformGenerator
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Facebook.Unity.Example
+    className: ConsoleBase
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: StompyRobot.SRDebugger.dll
+    namespaceName: SRDebugger.Services.Implementation
+    className: PinnedUIServiceImpl
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: StompyRobot.SRF.dll
+    namespaceName: SRF.Service
+    className: SRServiceManager
+  - hash:
+      serializedVersion: 2
+      Hash: 118cb1d95980cd046b9eb2c533f26f55
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: UISquircle
+  - hash:
+      serializedVersion: 2
+      Hash: 56705241d2649f7d6a95e7b828a7215c
+    assemblyName: StompyRobot.SRDebugger.dll
+    namespaceName: SRDebugger.UI.Controls
+    className: SRTabButton
+  - hash:
+      serializedVersion: 2
+      Hash: 1f6de46a6225b7053f786cd5b60a8dc1
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: RadialLayout
+  - hash:
+      serializedVersion: 2
+      Hash: 604a067944972a6c5395cc1372543924
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: SegmentedControl
+  - hash:
+      serializedVersion: 2
+      Hash: 6b176d531c857bc0916241652a217d87
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: ScrollPositionController
+  - hash:
+      serializedVersion: 2
+      Hash: 9d8608fed3477ad4ad1dcdd4cf1797fb
+    assemblyName: StompyRobot.SRDebugger.dll
+    namespaceName: SRDebugger.UI.Controls
+    className: PinEntryControl
+  - hash:
+      serializedVersion: 2
+      Hash: 17b96f2e2f22eaee45a839249f18e64d
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Dreamteck.Splines
+    className: ObjectControllerSpiralRule
+  - hash:
+      serializedVersion: 2
+      Hash: 2d6e78f0273fd1fd72303063f1750c2f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Dreamteck.Splines
+    className: SplineFollower
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: 
+    className: PlayerPrefsController
+  - hash:
+      serializedVersion: 2
+      Hash: a60cbd36625a512c3ef566c07072708c
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: I2.Loc
+    className: LocalizeDropdown
+  - hash:
+      serializedVersion: 2
+      Hash: c7a787af86fab20b088f65962eddd96b
+    assemblyName: StompyRobot.SRDebugger.dll
+    namespaceName: SRDebugger.UI.Other
+    className: DockConsoleController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Facebook.Unity.Example
+    className: GraphRequest
+  - hash:
+      serializedVersion: 2
+      Hash: fa894f6b1b8a42a6e7658d4ca902a49e
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: I2.Loc
+    className: LocalizeTarget_UnityUI_Text
+  - hash:
+      serializedVersion: 2
+      Hash: 6a3d93276a6a4e7eadc1712ce4bba16f
+    assemblyName: StompyRobot.SRDebugger.dll
+    namespaceName: SRDebugger.UI.Other
+    className: CategoryGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 75490345ccb437b1b11900bd3eb3c47d
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: VLB
+    className: ShaderGenerator
+  - hash:
+      serializedVersion: 2
+      Hash: 2802d846ea964d192455493eb4784a48
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: FlowLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 5d503502a3d7292b03a37256a6d0b75f
+    assemblyName: StompyRobot.SRDebugger.dll
+    namespaceName: SRDebugger.UI.Other
+    className: PinnedUIRoot
+  - hash:
+      serializedVersion: 2
+      Hash: f6dcbee40a4e4da9da41da2e1df116f4
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: UIGridRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: 66c5a8d3c54c737d7098ea0ad9fffc3a
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: UILineConnector
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Facebook.Unity.Example
+    className: AccessTokenMenu
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Facebook.Unity.Example
+    className: AppLinks
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Dreamteck
+    className: AsyncJobSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: MeshCreator
+  - hash:
+      serializedVersion: 2
+      Hash: 528e9858840cb8370d93939fff6b42d9
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: 
+    className: JoystickPlayerExample
+  - hash:
+      serializedVersion: 2
+      Hash: fd57eb2929946d32a7d9a180f7c94043
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: AutoCompleteComboBox
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Facebook.Unity.Example
+    className: MainMenu
+  - hash:
+      serializedVersion: 2
+      Hash: 6d7b5dba99de1343d7ef62af6978fe93
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Dreamteck.Splines
+    className: ObjectControllerSineRule
+  - hash:
+      serializedVersion: 2
+      Hash: 096a797c04550bd071959572a72fefae
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: UIImageCrop
+  - hash:
+      serializedVersion: 2
+      Hash: 6a759a62776cad3a6ac3dba2a92bf459
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: SuperellipsePoints
+  - hash:
+      serializedVersion: 2
+      Hash: 3e19be3bda9347859500e8f254e09d87
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AppMetrica
+  - hash:
+      serializedVersion: 2
+      Hash: 78cdf3f627979538e95dac45465d69dd
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions.ColorPicker
+    className: ColorSlider
+  - hash:
+      serializedVersion: 2
+      Hash: 22fa96b4f3ec4228cf5f08431cea3bab
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: VLB
+    className: VolumetricDustParticles
+  - hash:
+      serializedVersion: 2
+      Hash: 26cf0839ea9fc820dba91dec39f8bde1
+    assemblyName: StompyRobot.SRDebugger.dll
+    namespaceName: SRDebugger.UI.Other
+    className: ErrorNotifier
+  - hash:
+      serializedVersion: 2
+      Hash: 28f17f783b514b3f629a48727fee1793
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: I2.Loc
+    className: LanguageSource
+  - hash:
+      serializedVersion: 2
+      Hash: 65cbdcb68b30e73763776f59fd254e51
+    assemblyName: StompyRobot.SRDebugger.dll
+    namespaceName: SRDebugger.UI.Other
+    className: BugReportSheetController
+  - hash:
+      serializedVersion: 2
+      Hash: ec9f55bb3ba88bce59d96b3407451c78
+    assemblyName: StompyRobot.SRF.dll
+    namespaceName: SRF.UI
+    className: ScrollToBottomBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: ebed2bdd67516819ae9bf25c1f82158e
+    assemblyName: StompyRobot.SRDebugger.dll
+    namespaceName: SRDebugger.UI.Controls
+    className: ProfilerMemoryBlock
+  - hash:
+      serializedVersion: 2
+      Hash: 2c3e53c8a7cbd1fe85110ec141fdd23d
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: CardExpanding2D
+  - hash:
+      serializedVersion: 2
+      Hash: db5c181b712a305a5c6de212b6590305
+    assemblyName: StompyRobot.SRDebugger.dll
+    namespaceName: SRDebugger.UI.Controls.Data
+    className: ActionControl
+  - hash:
+      serializedVersion: 2
+      Hash: 51f8d470cac09a8e32d2d547963d8efc
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: ResizePanel
+  - hash:
+      serializedVersion: 2
+      Hash: 46a911eb33672050736223158d48ffac
+    assemblyName: StompyRobot.SRF.dll
+    namespaceName: SRF.UI
+    className: ResponsiveEnable
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: I2.Loc
+    className: SetLanguageDropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 5d16138f4b673f7a8a9ad9b14b9a3661
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI
+    className: ExtensionsToggle
+  - hash:
+      serializedVersion: 2
+      Hash: 6b4ed35305e623444c13eccafe34e01a
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Dreamteck.Splines
+    className: SurfaceGenerator
+  - hash:
+      serializedVersion: 2
+      Hash: 9366d3d29979b1ddc7132b8cbaa4c5f2
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: TileSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: UIAdditiveEffect
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: StompyRobot.SRDebugger.dll
+    namespaceName: SRDebugger.Profiler
+    className: SRPProfilerService
+  - hash:
+      serializedVersion: 2
+      Hash: 86b2e309b4704ac5f31bb9ce5486fc30
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: I2.Loc
+    className: LocalizeTarget_UnityStandard_Prefab
+  - hash:
+      serializedVersion: 2
+      Hash: 8e83d9eee35b9a9e096cc19c9528d08c
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: UIWindowBase
+  - hash:
+      serializedVersion: 2
+      Hash: 395ae6fd153bbce366dcbb7e4378918d
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: BoxSlider
+  - hash:
+      serializedVersion: 2
+      Hash: 10516c54b4d4dff0a3480f8b1343b7ad
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions.ColorPicker
+    className: HexColorField
+  - hash:
+      serializedVersion: 2
+      Hash: 02147077186441d097511515e118c74e
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: LetterSpacing
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Facebook.Unity.Example
+    className: Pay
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: RaycastMask
+  - hash:
+      serializedVersion: 2
+      Hash: c2bba42ccf8a6ae3dd81706fc48382d6
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: I2.Loc
+    className: LocalizeTarget_UnityStandard_AudioSource
+  - hash:
+      serializedVersion: 2
+      Hash: fe9cdebc1bf91f13be6ef5264f812cab
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: RadialSlider
+  - hash:
+      serializedVersion: 2
+      Hash: d3052383e8fd0011ccc6a276e304de90
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: ScrollConflictManager
+  - hash:
+      serializedVersion: 2
+      Hash: b1657c684d22baf253bd7c77c1b347d0
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Dreamteck.Splines
+    className: ParticleController
+  - hash:
+      serializedVersion: 2
+      Hash: e4b035dfaf54298cbdfadea206e7e050
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: RangeSlider
+  - hash:
+      serializedVersion: 2
+      Hash: 9a3a84d0d0e074b55bdbe6bb9b15ad21
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: CUIText
+  - hash:
+      serializedVersion: 2
+      Hash: a56f94f258a8d9f69f32471b2b28e716
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Dreamteck.Splines
+    className: SplinePositioner
+  - hash:
+      serializedVersion: 2
+      Hash: 9cde4fb29e02182d6a9a9d1c8b1e0206
+    assemblyName: StompyRobot.SRDebugger.dll
+    namespaceName: SRDebugger.UI.Other
+    className: BugReportPopoverRoot
+  - hash:
+      serializedVersion: 2
+      Hash: 6072a9fc6aefda26867f883ed91615ab
+    assemblyName: StompyRobot.SRDebugger.dll
+    namespaceName: SRDebugger.UI.Controls
+    className: ConsoleLogControl
+  - hash:
+      serializedVersion: 2
+      Hash: 3f9e421351dbcf7f03afb935d0c60eb6
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: VLB
+    className: EffectAbstractBase
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: StompyRobot.SRDebugger.dll
+    namespaceName: SRDebugger.Services.Implementation
+    className: BugReportPopoverService
+  - hash:
+      serializedVersion: 2
+      Hash: 2260ca748078376d13b72ba4a2d758ca
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: TabNavigationHelper
+  - hash:
+      serializedVersion: 2
+      Hash: 7da108d8223c1bf1dc5a12d568df68e6
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: UI_ScrollRectOcclusion
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: UIMultiplyEffect
+  - hash:
+      serializedVersion: 2
+      Hash: f848a79d405c1ef04a21ec77792f7926
+    assemblyName: StompyRobot.SRF.dll
+    namespaceName: SRF.UI
+    className: StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: 0671ae447629bddc41f4231620891675
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: DiamondGraph
+  - hash:
+      serializedVersion: 2
+      Hash: 7da108d8223c1bf1dc5a12d568df68e6
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: UI_InfiniteScroll
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: StompyRobot.SRDebugger.dll
+    namespaceName: SRDebugger.UI.Other
+    className: ConfigureCanvasFromSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 6f69eaad1100a4bc0cc01804cc8bd6c5
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: AccordionElement
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: VLB_Samples
+    className: FeaturesNotSupportedMessage
+  - hash:
+      serializedVersion: 2
+      Hash: 70ed5ac18145553a73cefa8f3ac3f2f2
+    assemblyName: StompyRobot.SRDebugger.dll
+    namespaceName: SRDebugger.UI.Other
+    className: SRTab
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: StompyRobot.SRDebugger.dll
+    namespaceName: SRDebugger.UI.Other
+    className: ScrollSettingsBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: a8212e35f30ef91f054075c00c5cf780
+    assemblyName: StompyRobot.SRF.dll
+    namespaceName: SRF.UI
+    className: CopyPreferredSize
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: StompyRobot.SRDebugger.dll
+    namespaceName: SRDebugger
+    className: SRDebuggerInit
+  - hash:
+      serializedVersion: 2
+      Hash: e33a573272cdb6b048e6c369d8c1406b
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: UIPrimitiveBase
+  - hash:
+      serializedVersion: 2
+      Hash: c8c672fee8a258266e51b55a210b8083
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.AI
+    className: NavMeshLink
+  - hash:
+      serializedVersion: 2
+      Hash: 2d5213f4eb1afb7456be6407aa5e3983
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: TableLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 2f6dd1d0b3d32e442c424ee860bca4e6
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions.ColorPicker
+    className: ColorImage
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Facebook.Unity.Example
+    className: AppEvents
+  - hash:
+      serializedVersion: 2
+      Hash: eba880938d83f3bcf30d2cdeccb6ac7c
+    assemblyName: StompyRobot.SRDebugger.dll
+    namespaceName: SRDebugger.UI.Controls
+    className: ProfilerEnableControl
+  - hash:
+      serializedVersion: 2
+      Hash: fcd01fac3571a9933a793a373489bba1
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.UI.Extensions
+    className: ScrollSnap
+  - hash:
+      serializedVersion: 2
+      Hash: 49eb8c37ded6124fbe01515f147667dc
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: VLB_Samples
+    className: Rotater
+  - hash:
+      serializedVersion: 2
+      Hash: bd50beb95120324d8c4e8386692b6e82
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineBlenderSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 62824bb9557c7e987502f2fbd2a26819
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineBrain
+  - hash:
+      serializedVersion: 2
+      Hash: c8f1a224e0a43adc56c91864de822dd3
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineVirtualCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachinePipeline
+  - hash:
+      serializedVersion: 2
+      Hash: bd543bad7f9f6262f10595aadb130d22
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineComposer
+  - hash:
+      serializedVersion: 2
+      Hash: 7c792393fb82488bd20139dcc5ba26d8
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineTransposer
+  - hash:
+      serializedVersion: 2
+      Hash: 32fce7b97c39bff4b4f6c0f53f7e6bf1
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineCollisionImpulseSource
+  - hash:
+      serializedVersion: 2
+      Hash: 6225eb0973ab0af667bc5f9d1b1b18de
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineCollider
+  - hash:
+      serializedVersion: 2
+      Hash: 694d20920c0e41f567e119f7159a3644
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachinePath
+  - hash:
+      serializedVersion: 2
+      Hash: 1e3d6222ff533d213aab144eb854a53b
+    assemblyName: Cinemachine.dll
+    namespaceName: 
+    className: CinemachineTouchInputMapper
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine.PostFX
+    className: CinemachineVolumeSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 37de53a49708b087da4050fc1ca7a6ee
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachinePOV
+  - hash:
+      serializedVersion: 2
+      Hash: 6ff1c52123c50b3d73f35cd0e2e65dfd
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineSmoothPath
+  - hash:
+      serializedVersion: 2
+      Hash: b5eb08b578a2f2d80bb106cbe65ab501
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineStoryboard
+  - hash:
+      serializedVersion: 2
+      Hash: eeb356fa33eec10332ebc7e468fecb95
+    assemblyName: Cinemachine.dll
+    namespaceName: 
+    className: CinemachineShot
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineInputProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 66a76d307baa3e8eb65d877c961f1b43
+    assemblyName: Cinemachine.dll
+    namespaceName: 
+    className: CinemachineRecomposer
+  - hash:
+      serializedVersion: 2
+      Hash: df21ffd1864551a3e43410f28754a73e
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineConfiner
+  - hash:
+      serializedVersion: 2
+      Hash: dbfb4270852b0008a423a7418d9de4cf
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineSameAsFollowTarget
+  - hash:
+      serializedVersion: 2
+      Hash: ffd3ed4fcd23b3e7745287c99a637247
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: Cinemachine3rdPersonAim
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Cinemachine.dll
+    namespaceName: 
+    className: CinemachineTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 23d669c8bf2983ca4a3df160658318a6
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineStateDrivenCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 15882a52798c275361cd0a3ada984ec5
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineDollyCart
+  - hash:
+      serializedVersion: 2
+      Hash: 5e84370a36252d6aa37d6a7bd37710f7
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: Cinemachine3rdPersonFollow
+  - hash:
+      serializedVersion: 2
+      Hash: b5c3dbcb94925c8b595ad16a62b44788
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineBasicMultiChannelPerlin
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachinePixelPerfect
+  - hash:
+      serializedVersion: 2
+      Hash: a66794b62dbf044668a5f102bb7908c2
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineIndependentImpulseListener
+  - hash:
+      serializedVersion: 2
+      Hash: 6dd3dc11942e98c0a809c81f95fc960c
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineExternalCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 2792936179724025482dc04d68a47ca7
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineClearShot
+  - hash:
+      serializedVersion: 2
+      Hash: dbfb4270852b0008a423a7418d9de4cf
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineHardLockToTarget
+  - hash:
+      serializedVersion: 2
+      Hash: e78709e690dc77916f3252ffe12b9d1f
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineTriggerAction
+  - hash:
+      serializedVersion: 2
+      Hash: ae20da6493a48ec6a8af7899dcb31507
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineFreeLook
+  - hash:
+      serializedVersion: 2
+      Hash: af56f77a30c1a2da1680c736a6f5c6e8
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: GroupWeightManipulator
+  - hash:
+      serializedVersion: 2
+      Hash: 204ea02909ea3f738dafe3ff633d2a93
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineTrackedDolly
+  - hash:
+      serializedVersion: 2
+      Hash: 23066ceca838af0cf02e00e3cf5155c1
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineImpulseSource
+  - hash:
+      serializedVersion: 2
+      Hash: d227987243593b32ae57394d06018643
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineFixedSignal
+  - hash:
+      serializedVersion: 2
+      Hash: 56df1fa7cea034df9863fe5a24200a32
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineTargetGroup
+  - hash:
+      serializedVersion: 2
+      Hash: b639d97cb780d0d99a2bfb3ad1935732
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineMixingCamera
+  - hash:
+      serializedVersion: 2
+      Hash: a66794b62dbf044668a5f102bb7908c2
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineImpulseListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineHardLookAt
+  - hash:
+      serializedVersion: 2
+      Hash: 611bc970ee9dc090779a3fac6a18fac6
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineFramingTransposer
+  - hash:
+      serializedVersion: 2
+      Hash: a2113831d3323f931007e1b3812dc814
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineFollowZoom
+  - hash:
+      serializedVersion: 2
+      Hash: 8963690ef6f6b05ce03bfd8b5c26e20c
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: NoiseSettings
+  - hash:
+      serializedVersion: 2
+      Hash: cbae2ed2d2d53cc8f539e7cb4f29bc1f
+    assemblyName: Cinemachine.dll
+    namespaceName: 
+    className: CinemachineCameraOffset
+  - hash:
+      serializedVersion: 2
+      Hash: 4a639215e29265dd99e4fed19e3fa9f4
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineBlendListCamera
+  - hash:
+      serializedVersion: 2
+      Hash: e6d75f1a9bc0c6f7085df0baa077e688
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineGroupComposer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine.PostFX
+    className: CinemachinePostProcessing
+  - hash:
+      serializedVersion: 2
+      Hash: 2ce2187bbae6f802011f568630bd3d1f
+    assemblyName: Cinemachine.dll
+    namespaceName: Cinemachine
+    className: CinemachineOrbitalTransposer
+  platform: 13
+  scenePathNames:
+  - Assets/Scenes/MainMenu.unity
+  playerPath: C:/Unity/Test/LightPerformanceProblem/Builds/MainMenuSceneTest.apk

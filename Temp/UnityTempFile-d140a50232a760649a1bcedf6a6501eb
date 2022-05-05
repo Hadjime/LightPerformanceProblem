@@ -1,0 +1,770 @@
+/target:library
+/out:Temp/Assembly-CSharp-firstpass.dll
+/nowarn:0169
+/nowarn:0649
+/refout:Temp/Assembly-CSharp-firstpass.dll.ref
+/deterministic
+/debug:portable
+/optimize-
+/nostdlib+
+/preferreduilang:en-US
+/langversion:8.0
+/reference:Library/ScriptAssemblies/StompyRobot.SRDebugger.Editor.dll
+/reference:Library/ScriptAssemblies/StompyRobot.SRDebugger.dll
+/reference:Library/ScriptAssemblies/StompyRobot.SRF.Editor.dll
+/reference:Library/ScriptAssemblies/StompyRobot.SRF.dll
+/reference:Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.Rider.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.TextMeshPro.dll
+/reference:Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.Timeline.dll
+/reference:Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+/reference:Library/ScriptAssemblies/UnityEditor.UI.dll
+/reference:Library/ScriptAssemblies/UnityEngine.UI.dll
+/reference:Assets/Plugins/Demigiant/DOTween/DOTween.dll
+/reference:Assets/Plugins/SIDGIN/Plugins/Google/Google.Apis.Auth.PlatformServices.dll
+/reference:Assets/Plugins/SIDGIN/Plugins/Google/Google.Apis.Auth.dll
+/reference:Assets/Plugins/SIDGIN/Plugins/Google/Google.Apis.Core.dll
+/reference:Assets/Plugins/SIDGIN/Plugins/Google/Google.Apis.PlatformServices.dll
+/reference:Assets/Plugins/SIDGIN/Plugins/Google/Google.Apis.Sheets.v4.dll
+/reference:Assets/Plugins/SIDGIN/Plugins/Google/Google.Apis.dll
+/reference:Assets/Plugins/SIDGIN/Plugins/Google/Newtonsoft.Json.dll
+/reference:Assets/Plugins/SIDGIN/SIDGIN.Common/SIDGIN.Common.Editors.dll
+/reference:Assets/Plugins/SIDGIN/SIDGIN.Common/SIDGIN.Common.dll
+/reference:Assets/_SDK/FacebookSDK/Plugins/Facebook.Unity.dll
+/reference:Assets/_SDK/FacebookSDK/Plugins/Gameroom/Facebook.Unity.Gameroom.dll
+/reference:Assets/_SDK/FacebookSDK/Plugins/Gameroom/FacebookNamedPipeClient.dll
+/reference:Assets/_SDK/FacebookSDK/Plugins/Settings/Facebook.Unity.Settings.dll
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEditor.GraphViewModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEditor.PackageManagerUIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEditor.SceneTemplateModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsSamplesModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIServiceModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEditor.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.GIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsNativeModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityCurlModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Numerics.Vectors.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ComponentModel.Composition.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Core.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Data.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Drawing.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.IO.Compression.FileSystem.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Net.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Numerics.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Runtime.Serialization.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ServiceModel.Web.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Transactions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Web.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Windows.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Linq.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/Microsoft.Win32.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.AppContext.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Concurrent.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.NonGeneric.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Specialized.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.EventBasedAsync.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.TypeConverter.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Console.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Data.Common.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Contracts.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Debug.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.FileVersionInfo.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Process.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.StackTrace.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TextWriterTraceListener.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tools.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TraceSource.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tracing.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Drawing.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Dynamic.Runtime.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Calendars.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.ZipFile.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.DriveInfo.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Watcher.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.IsolatedStorage.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.MemoryMappedFiles.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Pipes.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.UnmanagedMemoryStream.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Expressions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Parallel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Queryable.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Http.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NameResolution.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NetworkInformation.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Ping.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Requests.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Security.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Sockets.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebHeaderCollection.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.Client.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ObjectModel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Reader.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.ResourceManager.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Writer.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.CompilerServices.VisualC.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Handles.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.RuntimeInformation.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Numerics.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Formatters.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Json.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Xml.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Claims.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Algorithms.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Csp.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Encoding.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Primitives.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.X509Certificates.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Principal.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.SecureString.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.Extensions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.RegularExpressions.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Overlapped.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.Parallel.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Thread.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.ThreadPool.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Timer.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ValueTuple.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.ReaderWriter.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XDocument.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.XDocument.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlDocument.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlSerializer.dll"
+/reference:"C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll"
+/define:CSHARP_7_3_OR_NEWER
+/define:CSHARP_7_OR_LATER
+/define:DEBUG
+/define:ENABLE_AR
+/define:ENABLE_AUDIO
+/define:ENABLE_BURST_AOT
+/define:ENABLE_CACHING
+/define:ENABLE_CLOTH
+/define:ENABLE_CLOUD_LICENSE
+/define:ENABLE_CLOUD_SERVICES
+/define:ENABLE_CLOUD_SERVICES_ADS
+/define:ENABLE_CLOUD_SERVICES_ANALYTICS
+/define:ENABLE_CLOUD_SERVICES_BUILD
+/define:ENABLE_CLOUD_SERVICES_COLLAB
+/define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+/define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+/define:ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING
+/define:ENABLE_CLOUD_SERVICES_PURCHASING
+/define:ENABLE_CLOUD_SERVICES_UNET
+/define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+/define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+/define:ENABLE_CUSTOM_RENDER_TEXTURE
+/define:ENABLE_DIRECTOR
+/define:ENABLE_DIRECTOR_AUDIO
+/define:ENABLE_DIRECTOR_TEXTURE
+/define:ENABLE_EDITOR_HUB_LICENSE
+/define:ENABLE_EGL
+/define:ENABLE_ENGINE_CODE_STRIPPING
+/define:ENABLE_EVENT_QUEUE
+/define:ENABLE_LEGACY_INPUT_MANAGER
+/define:ENABLE_LOCALIZATION
+/define:ENABLE_LZMA
+/define:ENABLE_MANAGED_ANIMATION_JOBS
+/define:ENABLE_MANAGED_AUDIO_JOBS
+/define:ENABLE_MANAGED_JOBS
+/define:ENABLE_MANAGED_TRANSFORM_JOBS
+/define:ENABLE_MANAGED_UNITYTLS
+/define:ENABLE_MICROPHONE
+/define:ENABLE_MONO
+/define:ENABLE_MONO_BDWGC
+/define:ENABLE_MULTIPLE_DISPLAYS
+/define:ENABLE_NETWORK
+/define:ENABLE_ONSCREEN_KEYBOARD
+/define:ENABLE_PHYSICS
+/define:ENABLE_PROFILER
+/define:ENABLE_RUNTIME_GI
+/define:ENABLE_RUNTIME_PERMISSIONS
+/define:ENABLE_SCRIPTING_GC_WBARRIERS
+/define:ENABLE_SPATIALTRACKING
+/define:ENABLE_SPRITES
+/define:ENABLE_TERRAIN
+/define:ENABLE_TEXTURE_STREAMING
+/define:ENABLE_TILEMAP
+/define:ENABLE_TIMELINE
+/define:ENABLE_UNET
+/define:ENABLE_UNITYADS_RUNTIME
+/define:ENABLE_UNITYEVENTS
+/define:ENABLE_UNITYWEBREQUEST
+/define:ENABLE_UNITY_COLLECTIONS_CHECKS
+/define:ENABLE_VIDEO
+/define:ENABLE_VR
+/define:ENABLE_WEBCAM
+/define:ENABLE_WEBSOCKET_CLIENT
+/define:ENABLE_WWW
+/define:INCLUDE_DYNAMIC_GI
+/define:NET_STANDARD_2_0
+/define:PLATFORM_ANDROID
+/define:PLATFORM_EXTENDS_VULKAN_DEVICE
+/define:PLATFORM_HAS_MULTIPLE_SWAPCHAINS
+/define:PLATFORM_SUPPORTS_MONO
+/define:SCENE_TEMPLATE_MODULE
+/define:TRACE
+/define:TextMeshPro
+/define:UNITY_2017_1_OR_NEWER
+/define:UNITY_2017_2_OR_NEWER
+/define:UNITY_2017_3_OR_NEWER
+/define:UNITY_2017_4_OR_NEWER
+/define:UNITY_2018_1_OR_NEWER
+/define:UNITY_2018_2_OR_NEWER
+/define:UNITY_2018_3_OR_NEWER
+/define:UNITY_2018_4_OR_NEWER
+/define:UNITY_2019_1_OR_NEWER
+/define:UNITY_2019_2_OR_NEWER
+/define:UNITY_2019_3_OR_NEWER
+/define:UNITY_2019_4_OR_NEWER
+/define:UNITY_2020
+/define:UNITY_2020_1_OR_NEWER
+/define:UNITY_2020_2_OR_NEWER
+/define:UNITY_2020_3
+/define:UNITY_2020_3_33
+/define:UNITY_2020_3_OR_NEWER
+/define:UNITY_5_3_OR_NEWER
+/define:UNITY_5_4_OR_NEWER
+/define:UNITY_5_5_OR_NEWER
+/define:UNITY_5_6_OR_NEWER
+/define:UNITY_ANDROID
+/define:UNITY_ANDROID_API
+/define:UNITY_ANDROID_SUPPORTS_SHADOWFILES
+/define:UNITY_ASSERTIONS
+/define:UNITY_CAN_SHOW_SPLASH_SCREEN
+/define:UNITY_EDITOR
+/define:UNITY_EDITOR_64
+/define:UNITY_EDITOR_WIN
+/define:UNITY_HAS_GOOGLEVR
+/define:UNITY_HAS_TANGO
+/define:UNITY_INCLUDE_TESTS
+/define:UNITY_TEAM_LICENSE
+/define:UNITY_UNITYADS_API
+/define:USE_SEARCH_ENGINE_API
+Assets\Plugins\BroTools\BroTweener\BroTweener.cs
+Assets\Plugins\BroTools\BroTweener\ITween.cs
+Assets\Plugins\BroTools\BroTweener\Tween.cs
+Assets\Plugins\BroTools\BroTweener\TweenData.cs
+Assets\Plugins\BroTools\BroTweener\Tweens\TweenAction.cs
+Assets\Plugins\BroTools\BroTweener\Tweens\TweenAlpha.cs
+Assets\Plugins\BroTools\BroTweener\Tweens\TweenColor.cs
+Assets\Plugins\BroTools\BroTweener\Tweens\TweenHeight.cs
+Assets\Plugins\BroTools\BroTweener\Tweens\TweenLink.cs
+Assets\Plugins\BroTools\BroTweener\Tweens\TweenPosition.cs
+Assets\Plugins\BroTools\BroTweener\Tweens\TweenRotation.cs
+Assets\Plugins\BroTools\BroTweener\Tweens\TweenScale.cs
+Assets\Plugins\BroTools\BroTweener\Tweens\TweenWidth.cs
+Assets\Plugins\BroTools\BroTweener\TweensConfig.cs
+Assets\Plugins\BroTools\ExtensionMethods.cs
+Assets\Plugins\BroTools\MonoBehaviourSingleton.cs
+Assets\Plugins\BroTools\ObjectPool\DictionaryPoolable.cs
+Assets\Plugins\BroTools\ObjectPool\ListPoolable.cs
+Assets\Plugins\BroTools\ObjectPool\ObjectPool.cs
+Assets\Plugins\BroTools\ObjectPool\SimplePool.cs
+Assets\Plugins\BroTools\StateMachine\SMRoutineState.cs
+Assets\Plugins\BroTools\StateMachine\StateMachineRoutine.cs
+Assets\Plugins\BroTools\UIManager\States\UIState.cs
+Assets\Plugins\BroTools\UIManager\UIElement.cs
+Assets\Plugins\BroTools\UIManager\UIElementAnimated.cs
+Assets\Plugins\BroTools\UIManager\UIKey.cs
+Assets\Plugins\BroTools\UIManager\UILayer.cs
+Assets\Plugins\BroTools\UIManager\UIManager.cs
+Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs
+Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModulePhysics.cs
+Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModulePhysics2D.cs
+Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleSprite.cs
+Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUI.cs
+Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUnityVersion.cs
+Assets\Plugins\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs
+Assets\Plugins\Dreamteck\Splines\Components\BlankUser.cs
+Assets\Plugins\Dreamteck\Splines\Components\EdgeColliderGenerator.cs
+Assets\Plugins\Dreamteck\Splines\Components\LengthCalculator.cs
+Assets\Plugins\Dreamteck\Splines\Components\MeshGenerator.cs
+Assets\Plugins\Dreamteck\Splines\Components\Node.cs
+Assets\Plugins\Dreamteck\Splines\Components\ObjectBender.cs
+"Assets\Plugins\Dreamteck\Splines\Components\ObjectController CustomRules\Classes\ObjectControllerCustomRuleBase.cs"
+"Assets\Plugins\Dreamteck\Splines\Components\ObjectController CustomRules\Classes\ObjectControllerSineRule.cs"
+"Assets\Plugins\Dreamteck\Splines\Components\ObjectController CustomRules\Classes\ObjectControllerSpiralRule.cs"
+Assets\Plugins\Dreamteck\Splines\Components\ObjectController.cs
+Assets\Plugins\Dreamteck\Splines\Components\ParticleController.cs
+Assets\Plugins\Dreamteck\Splines\Components\PathGenerator.cs
+Assets\Plugins\Dreamteck\Splines\Components\PolygonColliderGenerator.cs
+"Assets\Plugins\Dreamteck\Splines\Components\Sample Modifiers\ColorModifier.cs"
+"Assets\Plugins\Dreamteck\Splines\Components\Sample Modifiers\FollowerSpeedModifier.cs"
+"Assets\Plugins\Dreamteck\Splines\Components\Sample Modifiers\MeshScaleModifier.cs"
+"Assets\Plugins\Dreamteck\Splines\Components\Sample Modifiers\OffsetModifier.cs"
+"Assets\Plugins\Dreamteck\Splines\Components\Sample Modifiers\RotationModifier.cs"
+"Assets\Plugins\Dreamteck\Splines\Components\Sample Modifiers\SizeModifier.cs"
+"Assets\Plugins\Dreamteck\Splines\Components\Sample Modifiers\SplineSampleModifier.cs"
+Assets\Plugins\Dreamteck\Splines\Components\SplineComputer.cs
+Assets\Plugins\Dreamteck\Splines\Components\SplineFollower.cs
+Assets\Plugins\Dreamteck\Splines\Components\SplineMesh.cs
+Assets\Plugins\Dreamteck\Splines\Components\SplineMeshChannel.cs
+Assets\Plugins\Dreamteck\Splines\Components\SplineMorph.cs
+Assets\Plugins\Dreamteck\Splines\Components\SplinePositioner.cs
+Assets\Plugins\Dreamteck\Splines\Components\SplineProjector.cs
+Assets\Plugins\Dreamteck\Splines\Components\SplineRenderer.cs
+Assets\Plugins\Dreamteck\Splines\Components\SplineTracer.cs
+Assets\Plugins\Dreamteck\Splines\Components\SplineUser.cs
+Assets\Plugins\Dreamteck\Splines\Components\SurfaceGenerator.cs
+Assets\Plugins\Dreamteck\Splines\Components\TubeGenerator.cs
+Assets\Plugins\Dreamteck\Splines\Components\WaveformGenerator.cs
+Assets\Plugins\Dreamteck\Splines\Core\IO\CSV.cs
+Assets\Plugins\Dreamteck\Splines\Core\IO\SVG.cs
+Assets\Plugins\Dreamteck\Splines\Core\IO\SplineParser.cs
+Assets\Plugins\Dreamteck\Splines\Core\ObjectSequence.cs
+Assets\Plugins\Dreamteck\Splines\Core\Primitives\Capsule.cs
+Assets\Plugins\Dreamteck\Splines\Core\Primitives\Ellipse.cs
+Assets\Plugins\Dreamteck\Splines\Core\Primitives\Line.cs
+Assets\Plugins\Dreamteck\Splines\Core\Primitives\Ngon.cs
+Assets\Plugins\Dreamteck\Splines\Core\Primitives\Rectangle.cs
+Assets\Plugins\Dreamteck\Splines\Core\Primitives\RoundedRectangle.cs
+Assets\Plugins\Dreamteck\Splines\Core\Primitives\Spiral.cs
+Assets\Plugins\Dreamteck\Splines\Core\Primitives\SplinePrimitive.cs
+Assets\Plugins\Dreamteck\Splines\Core\Primitives\Star.cs
+Assets\Plugins\Dreamteck\Splines\Core\SampleCollection.cs
+Assets\Plugins\Dreamteck\Splines\Core\Spline.cs
+Assets\Plugins\Dreamteck\Splines\Core\SplinePoint.cs
+Assets\Plugins\Dreamteck\Splines\Core\SplinePrefs.cs
+Assets\Plugins\Dreamteck\Splines\Core\SplineSample.cs
+Assets\Plugins\Dreamteck\Splines\Core\SplineThreading.cs
+Assets\Plugins\Dreamteck\Splines\Core\SplineTrigger.cs
+Assets\Plugins\Dreamteck\Splines\Core\TransformModule.cs
+Assets\Plugins\Dreamteck\Utilities\ArrayUtility.cs
+Assets\Plugins\Dreamteck\Utilities\AsyncJobSystem.cs
+Assets\Plugins\Dreamteck\Utilities\ColorUtility.cs
+Assets\Plugins\Dreamteck\Utilities\DMath.cs
+Assets\Plugins\Dreamteck\Utilities\DuplicateUtility.cs
+Assets\Plugins\Dreamteck\Utilities\LinearAlgebraUtility.cs
+Assets\Plugins\Dreamteck\Utilities\MeshUtility.cs
+Assets\Plugins\Dreamteck\Utilities\ScriptableObjectUtility.cs
+Assets\Plugins\Dreamteck\Utilities\Singleton.cs
+Assets\Plugins\Dreamteck\Utilities\TS_Bounds.cs
+Assets\Plugins\Dreamteck\Utilities\TS_Mesh.cs
+Assets\Plugins\Dreamteck\Utilities\TS_Transform.cs
+Assets\Plugins\Dreamteck\Utilities\TransformUtility.cs
+Assets\Plugins\Dreamteck\Utilities\Utilities.cs
+Assets\Plugins\I2\Localization\I2Loc.cs
+Assets\Plugins\I2\Localization\Scripts\Configurables\PersistentStorage.cs
+Assets\Plugins\I2\Localization\Scripts\Configurables\SpecializationManager.cs
+Assets\Plugins\I2\Localization\Scripts\EventCallback.cs
+Assets\Plugins\I2\Localization\Scripts\Google\GoogleLanguages.cs
+Assets\Plugins\I2\Localization\Scripts\Google\GoogleTranslation.cs
+Assets\Plugins\I2\Localization\Scripts\Google\GoogleTranslation_Post.cs
+Assets\Plugins\I2\Localization\Scripts\Google\GoogleTranslation_Queries.cs
+Assets\Plugins\I2\Localization\Scripts\Google\SimpleJSON.cs
+Assets\Plugins\I2\Localization\Scripts\Google\TranslationJob.cs
+Assets\Plugins\I2\Localization\Scripts\Google\TranslationJob_GET.cs
+Assets\Plugins\I2\Localization\Scripts\Google\TranslationJob_Main.cs
+Assets\Plugins\I2\Localization\Scripts\Google\TranslationJob_POST.cs
+Assets\Plugins\I2\Localization\Scripts\Google\TranslationJob_WEB.cs
+Assets\Plugins\I2\Localization\Scripts\LanguageData.cs
+Assets\Plugins\I2\Localization\Scripts\LanguageSource\LanguageSource.cs
+Assets\Plugins\I2\Localization\Scripts\LanguageSource\LanguageSourceAsset.cs
+Assets\Plugins\I2\Localization\Scripts\LanguageSource\LanguageSourceData.cs
+Assets\Plugins\I2\Localization\Scripts\LanguageSource\LanguageSourceData_Assets.cs
+Assets\Plugins\I2\Localization\Scripts\LanguageSource\LanguageSourceData_Export_CSV.cs
+Assets\Plugins\I2\Localization\Scripts\LanguageSource\LanguageSourceData_Export_Google.cs
+Assets\Plugins\I2\Localization\Scripts\LanguageSource\LanguageSourceData_Import_CSV.cs
+Assets\Plugins\I2\Localization\Scripts\LanguageSource\LanguageSourceData_Import_Google.cs
+Assets\Plugins\I2\Localization\Scripts\LanguageSource\LanguageSourceData_Languages.cs
+Assets\Plugins\I2\Localization\Scripts\LanguageSource\LanguageSourceData_Misc.cs
+Assets\Plugins\I2\Localization\Scripts\LanguageSource\LanguageSourceData_Terms.cs
+Assets\Plugins\I2\Localization\Scripts\LocalizationReader.cs
+Assets\Plugins\I2\Localization\Scripts\Localize.cs
+Assets\Plugins\I2\Localization\Scripts\LocalizeDropdown.cs
+Assets\Plugins\I2\Localization\Scripts\Manager\LocalizationManager.cs
+Assets\Plugins\I2\Localization\Scripts\Manager\LocalizationManager_Language.cs
+Assets\Plugins\I2\Localization\Scripts\Manager\LocalizationManager_Parameters.cs
+Assets\Plugins\I2\Localization\Scripts\Manager\LocalizationManager_RTL.cs
+Assets\Plugins\I2\Localization\Scripts\Manager\LocalizationManager_Sources.cs
+Assets\Plugins\I2\Localization\Scripts\Manager\LocalizationManager_SystemLanguage.cs
+Assets\Plugins\I2\Localization\Scripts\Manager\LocalizationManager_Targets.cs
+Assets\Plugins\I2\Localization\Scripts\Manager\LocalizationManager_Translation.cs
+Assets\Plugins\I2\Localization\Scripts\Targets\ILocalizeTarget.cs
+Assets\Plugins\I2\Localization\Scripts\Targets\ILocalizeTargetDesc.cs
+Assets\Plugins\I2\Localization\Scripts\Targets\LocalizeTarget_2DToolKit_Label.cs
+Assets\Plugins\I2\Localization\Scripts\Targets\LocalizeTarget_2DToolKit_Sprite.cs
+Assets\Plugins\I2\Localization\Scripts\Targets\LocalizeTarget_NGUI_Label.cs
+Assets\Plugins\I2\Localization\Scripts\Targets\LocalizeTarget_NGUI_Sprite.cs
+Assets\Plugins\I2\Localization\Scripts\Targets\LocalizeTarget_NGUI_Texture.cs
+Assets\Plugins\I2\Localization\Scripts\Targets\LocalizeTarget_SVGImporter_Image.cs
+Assets\Plugins\I2\Localization\Scripts\Targets\LocalizeTarget_SVGImporter_Renderer.cs
+Assets\Plugins\I2\Localization\Scripts\Targets\LocalizeTarget_TextMeshPro_Label.cs
+Assets\Plugins\I2\Localization\Scripts\Targets\LocalizeTarget_TextMeshPro_UGUI.cs
+Assets\Plugins\I2\Localization\Scripts\Targets\LocalizeTarget_UnityStandard_AudioSource.cs
+Assets\Plugins\I2\Localization\Scripts\Targets\LocalizeTarget_UnityStandard_Child.cs
+Assets\Plugins\I2\Localization\Scripts\Targets\LocalizeTarget_UnityStandard_MeshRenderer.cs
+Assets\Plugins\I2\Localization\Scripts\Targets\LocalizeTarget_UnityStandard_Prefab.cs
+Assets\Plugins\I2\Localization\Scripts\Targets\LocalizeTarget_UnityStandard_SpriteRenderer.cs
+Assets\Plugins\I2\Localization\Scripts\Targets\LocalizeTarget_UnityStandard_TextMesh.cs
+Assets\Plugins\I2\Localization\Scripts\Targets\LocalizeTarget_UnityUI_Image.cs
+Assets\Plugins\I2\Localization\Scripts\Targets\LocalizeTarget_UnityUI_RawImage.cs
+Assets\Plugins\I2\Localization\Scripts\Targets\LocalizeTarget_UnityUI_Text.cs
+Assets\Plugins\I2\Localization\Scripts\TermData.cs
+Assets\Plugins\I2\Localization\Scripts\Utils\AutoChangeCultureInfo.cs
+Assets\Plugins\I2\Localization\Scripts\Utils\CoroutineManager.cs
+Assets\Plugins\I2\Localization\Scripts\Utils\CustomLocalizeCallback.cs
+Assets\Plugins\I2\Localization\Scripts\Utils\HindiFixer.cs
+Assets\Plugins\I2\Localization\Scripts\Utils\I2Utils.cs
+Assets\Plugins\I2\Localization\Scripts\Utils\LocalizationParamsManager.cs
+Assets\Plugins\I2\Localization\Scripts\Utils\LocalizedString.cs
+Assets\Plugins\I2\Localization\Scripts\Utils\RTLFixer.cs
+Assets\Plugins\I2\Localization\Scripts\Utils\RegisterGlobalParameters.cs
+Assets\Plugins\I2\Localization\Scripts\Utils\ResourceManager.cs
+Assets\Plugins\I2\Localization\Scripts\Utils\SetLanguage.cs
+Assets\Plugins\I2\Localization\Scripts\Utils\SetLanguageDropdown.cs
+Assets\Plugins\I2\Localization\Scripts\Utils\StringObfuscator.cs
+Assets\Plugins\IInputSender.cs
+"Assets\Plugins\Joystick Pack\Examples\JoystickPlayerExample.cs"
+"Assets\Plugins\Joystick Pack\Examples\JoystickSetterExample.cs"
+"Assets\Plugins\Joystick Pack\Scripts\Base\Joystick.cs"
+"Assets\Plugins\Joystick Pack\Scripts\Joysticks\DynamicJoystick.cs"
+"Assets\Plugins\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs"
+"Assets\Plugins\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs"
+"Assets\Plugins\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs"
+Assets\Plugins\MiniJSON\ISerializable.cs
+Assets\Plugins\MiniJSON\JSONObject.cs
+Assets\Plugins\MiniJSON\MiniJSON.cs
+Assets\Plugins\NavMeshComponents\Scripts\NavMeshLink.cs
+Assets\Plugins\NavMeshComponents\Scripts\NavMeshModifier.cs
+Assets\Plugins\NavMeshComponents\Scripts\NavMeshModifierVolume.cs
+Assets\Plugins\NavMeshComponents\Scripts\NavMeshSurface.cs
+"Assets\Plugins\PlayerPrefsEditor\Editor Resources\ImageManager.cs"
+Assets\Plugins\PlayerPrefsEditor\Samples\SampleScene\PlayerPrefsController.cs
+Assets\Plugins\SIDGIN\SIDGIN.GoogleSheets\CodeSamples\ActorsData.cs
+Assets\Plugins\SIDGIN\SIDGIN.GoogleSheets\CodeSamples\TestDataSender.cs
+Assets\Plugins\SIDGIN\SIDGIN.GoogleSheets\Runtime\Attributes\GoogleSheetAttribute.cs
+Assets\Plugins\SIDGIN\SIDGIN.GoogleSheets\Runtime\Attributes\GoogleSheetParamAttribute.cs
+Assets\Plugins\SIDGIN\SIDGIN.GoogleSheets\Runtime\GoogleGetSheetsResults.cs
+Assets\Plugins\SIDGIN\SIDGIN.GoogleSheets\Runtime\GoogleSheetsLoadManager.cs
+Assets\Plugins\SIDGIN\SIDGIN.GoogleSheets\Runtime\GoogleSheetsManager.cs
+Assets\Plugins\SIDGIN\SIDGIN.GoogleSheets\Runtime\GoogleSheetsMapConverter.cs
+Assets\Plugins\SIDGIN\SIDGIN.GoogleSheets\Runtime\GoogleSheetsMapLoader.cs
+Assets\Plugins\SIDGIN\SIDGIN.GoogleSheets\Runtime\GoogleSheetsMapSender.cs
+Assets\Plugins\SIDGIN\SIDGIN.GoogleSheets\Runtime\GoogleSheetsSendManager.cs
+Assets\Plugins\SIDGIN\SIDGIN.GoogleSheets\Runtime\GoogleTable.cs
+Assets\Plugins\SIDGIN\SIDGIN.GoogleSheets\Runtime\IGoogleDataLoader.cs
+Assets\Plugins\SIDGIN\SIDGIN.GoogleSheets\Runtime\IRowDataConverter.cs
+Assets\Plugins\SIDGIN\SIDGIN.GoogleSheets\Runtime\ISheetSaver.cs
+Assets\Plugins\SIDGIN\SIDGIN.GoogleSheets\Runtime\IValueConverter.cs
+Assets\Plugins\SIDGIN\SIDGIN.GoogleSheets\Runtime\Internal\Exceptions\CredentialsNotFound.cs
+Assets\Plugins\SIDGIN\SIDGIN.GoogleSheets\Runtime\Internal\Exceptions\SheetNotFoundException.cs
+Assets\Plugins\SIDGIN\SIDGIN.GoogleSheets\Runtime\Internal\GoogleSheetsLoadByMap.cs
+Assets\Plugins\SIDGIN\SIDGIN.GoogleSheets\Runtime\Internal\GoogleSheetsSettings.cs
+Assets\Plugins\SIDGIN\SIDGIN.GoogleSheets\Runtime\Internal\ValueConverters\BoolConverter.cs
+Assets\Plugins\SIDGIN\SIDGIN.GoogleSheets\Runtime\Internal\ValueConverters\EnumConverter.cs
+Assets\Plugins\SIDGIN\SIDGIN.GoogleSheets\Runtime\Internal\ValueConverters\FloatConverter.cs
+Assets\Plugins\SIDGIN\SIDGIN.GoogleSheets\Runtime\Internal\ValueConverters\IntConverter.cs
+Assets\Plugins\SIDGIN\SIDGIN.GoogleSheets\Runtime\Internal\ValueConverters\ListOfStringConverter.cs
+Assets\Plugins\SIDGIN\SIDGIN.GoogleSheets\Runtime\Internal\ValueConverters\StringConverter.cs
+Assets\Plugins\SIDGIN\SIDGIN.GoogleSheets\Runtime\ValueConvertHelper.cs
+Assets\Plugins\SerializeReferenceEditor\SRAttribute.cs
+"Assets\Plugins\Terrain Stitch\Terrain Stitch Scripts\IntArrayComparer.cs"
+"Assets\Plugins\Terrain Stitch\Terrain Stitch Scripts\TerrainNeighbours.cs"
+"Assets\Plugins\Terrain Stitch\Terrain Stitch Scripts\Third Party\Complex.cs"
+"Assets\Plugins\Terrain Stitch\Terrain Stitch Scripts\Third Party\Matrix.cs"
+Assets\Plugins\VolumetricLightBeam\Samples\Scripts\CameraToggleBeamVisibility.cs
+Assets\Plugins\VolumetricLightBeam\Samples\Scripts\CheckIfInsideBeam.cs
+Assets\Plugins\VolumetricLightBeam\Samples\Scripts\FeaturesNotSupportedMessage.cs
+Assets\Plugins\VolumetricLightBeam\Samples\Scripts\FreeCameraController.cs
+Assets\Plugins\VolumetricLightBeam\Samples\Scripts\LightGenerator.cs
+Assets\Plugins\VolumetricLightBeam\Samples\Scripts\Rotater.cs
+Assets\Plugins\VolumetricLightBeam\Scripts\BatchingHelper.cs
+Assets\Plugins\VolumetricLightBeam\Scripts\BeamGeometry.cs
+Assets\Plugins\VolumetricLightBeam\Scripts\CachedLightProperties.cs
+Assets\Plugins\VolumetricLightBeam\Scripts\Config.cs
+Assets\Plugins\VolumetricLightBeam\Scripts\ConfigOverride.cs
+Assets\Plugins\VolumetricLightBeam\Scripts\Consts.cs
+Assets\Plugins\VolumetricLightBeam\Scripts\DummyMaterial.cs
+Assets\Plugins\VolumetricLightBeam\Scripts\DynamicOcclusionAbstractBase.cs
+Assets\Plugins\VolumetricLightBeam\Scripts\DynamicOcclusionDepthBuffer.cs
+Assets\Plugins\VolumetricLightBeam\Scripts\DynamicOcclusionRaycasting.cs
+Assets\Plugins\VolumetricLightBeam\Scripts\EditorPrefsStrings.cs
+Assets\Plugins\VolumetricLightBeam\Scripts\EffectAbstractBase.cs
+Assets\Plugins\VolumetricLightBeam\Scripts\EffectFlicker.cs
+Assets\Plugins\VolumetricLightBeam\Scripts\EffectPulse.cs
+Assets\Plugins\VolumetricLightBeam\Scripts\Enums.cs
+Assets\Plugins\VolumetricLightBeam\Scripts\GlobalMesh.cs
+Assets\Plugins\VolumetricLightBeam\Scripts\HighlightNullAttribute.cs
+Assets\Plugins\VolumetricLightBeam\Scripts\MaterialManager.cs
+Assets\Plugins\VolumetricLightBeam\Scripts\MaterialModifier.cs
+Assets\Plugins\VolumetricLightBeam\Scripts\MeshGenerator.cs
+Assets\Plugins\VolumetricLightBeam\Scripts\MinMaxRangeFloat.cs
+Assets\Plugins\VolumetricLightBeam\Scripts\Noise3D.cs
+Assets\Plugins\VolumetricLightBeam\Scripts\PlatformHelper.cs
+Assets\Plugins\VolumetricLightBeam\Scripts\PolygonHelper.cs
+Assets\Plugins\VolumetricLightBeam\Scripts\SRPHelper.cs
+Assets\Plugins\VolumetricLightBeam\Scripts\ShaderGenerator.cs
+Assets\Plugins\VolumetricLightBeam\Scripts\ShaderKeywords.cs
+Assets\Plugins\VolumetricLightBeam\Scripts\ShaderProperties.cs
+Assets\Plugins\VolumetricLightBeam\Scripts\SkewingHandle.cs
+Assets\Plugins\VolumetricLightBeam\Scripts\TransformUtils.cs
+Assets\Plugins\VolumetricLightBeam\Scripts\TriggerZone.cs
+Assets\Plugins\VolumetricLightBeam\Scripts\Utils.cs
+Assets\Plugins\VolumetricLightBeam\Scripts\Version.cs
+Assets\Plugins\VolumetricLightBeam\Scripts\VolumetricDustParticles.cs
+Assets\Plugins\VolumetricLightBeam\Scripts\VolumetricLightBeam.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Controls\Accordion\Accordion.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Controls\Accordion\AccordionElement.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Controls\Accordion\Tweening\FloatTween.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Controls\Accordion\Tweening\ITweenValue.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Controls\Accordion\Tweening\TweenRunner.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Controls\BoxSlider.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Controls\ColorPicker\ColorImage.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Controls\ColorPicker\ColorLabel.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Controls\ColorPicker\ColorPickerControl.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Controls\ColorPicker\ColorPickerPresets.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Controls\ColorPicker\ColorPickerTester.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Controls\ColorPicker\ColorSampler.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Controls\ColorPicker\ColorSlider.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Controls\ColorPicker\ColorSliderImage.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Controls\ColorPicker\ColorValues.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Controls\ColorPicker\Events\ColorChangedEvent.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Controls\ColorPicker\Events\HSVChangedEvent.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Controls\ColorPicker\HSVUtil.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Controls\ColorPicker\HexColorField.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Controls\ColorPicker\SVBoxSlider.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Controls\ColorPicker\TiltWindow.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Controls\ComboBox\AutoCompleteComboBox.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Controls\ComboBox\ComboBox.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Controls\ComboBox\DropDownList.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Controls\ComboBox\DropDownListButton.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Controls\ComboBox\DropDownListItem.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Controls\CooldownButton.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Controls\InputFocus.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Controls\MultiTouchScrollRect.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Controls\RadialSlider.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Controls\RangeSlider.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Controls\ReorderableList\ReorderableList.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Controls\ReorderableList\ReorderableListContent.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Controls\ReorderableList\ReorderableListDebug.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Controls\ReorderableList\ReorderableListElement.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Controls\RescalingPanels\RescaleDragPanel.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Controls\RescalingPanels\RescalePanel.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Controls\RescalingPanels\ResizePanel.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Controls\Segment.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Controls\SegmentedControl.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Controls\SelectionBox\ExampleSelectable.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Controls\SelectionBox\IBoxSelectable.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Controls\SelectionBox\SelectionBox.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Controls\Stepper.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Controls\StepperSide.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Controls\TextPic.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Controls\UI_Knob.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Effects\BestFitOutline.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Effects\CurlyUI\CUIBezierCurve.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Effects\CurlyUI\CUIGraphic.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Effects\CurlyUI\CUIImage.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Effects\CurlyUI\CUIMisc.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Effects\CurlyUI\CUIText.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Effects\CurvedText.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Effects\CylinderText.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Effects\Gradient.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Effects\Gradient2.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Effects\LetterSpacing.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Effects\MonoSpacing.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Effects\NicerOutline.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Effects\RaycastMask.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Effects\ShaderEffects\UIAdditiveEffect.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Effects\ShaderEffects\UIImageCrop.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Effects\ShaderEffects\UILinearDodgeEffect.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Effects\ShaderEffects\UIMultiplyEffect.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Effects\ShaderEffects\UIScreenEffect.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Effects\ShaderEffects\UISoftAdditiveEffect.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Effects\ShineEffect.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Effects\ShineEffector.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Effects\SoftMaskScript.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Effects\UIFlippable.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Effects\UIParticleSystem.cs
+"Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Layout\CardUI\2D Cards\CardExpanding2D.cs"
+"Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Layout\CardUI\2D Cards\CardPopup2D.cs"
+"Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Layout\CardUI\2D Cards\CardStack2D.cs"
+"Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Layout\CardUI\3D Cards\CardExpanding3D.cs"
+"Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Layout\CardUI\Superellipse Creation\MeshCreator.cs"
+"Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Layout\CardUI\Superellipse Creation\SuperellipsePoints.cs"
+"Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Layout\CardUI\Superellipse Creation\Triangulator.cs"
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Layout\ContentScrollSnapHorizontal.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Layout\CurvedLayout.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Layout\FancyScrollView\Core\FancyCell.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Layout\FancyScrollView\Core\FancyScrollView.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Layout\FancyScrollView\GridView\FancyCellGroup.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Layout\FancyScrollView\GridView\FancyGridView.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Layout\FancyScrollView\GridView\FancyGridViewCell.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Layout\FancyScrollView\GridView\FancyGridViewContext.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Layout\FancyScrollView\GridView\IFancyCellGroupContext.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Layout\FancyScrollView\GridView\IFancyGridViewContext.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Layout\FancyScrollView\ScrollRect\FancyScrollRect.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Layout\FancyScrollView\ScrollRect\FancyScrollRectCell.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Layout\FancyScrollView\ScrollRect\FancyScrollRectContext.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Layout\FancyScrollView\ScrollRect\IFancyScrollRectContext.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Layout\FancyScrollView\Scroller\EasingCore.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Layout\FancyScrollView\Scroller\MovementDirection.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Layout\FancyScrollView\Scroller\MovementType.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Layout\FancyScrollView\Scroller\ScrollDirection.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Layout\FancyScrollView\Scroller\Scroller.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Layout\FlowLayoutGroup.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Layout\HorizontalScrollSnap.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Layout\IScrollSnap.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Layout\RadialLayout.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Layout\ScrollPositionController.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Layout\ScrollSnap.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Layout\ScrollSnapBase.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Layout\ScrollSnapScrollbarHelper.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Layout\TableLayoutGroup.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Layout\TileSizeFitter.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Layout\UIVerticalScroller.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Layout\VerticalScrollSnap.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\MenuSystem\Menu.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\MenuSystem\MenuManager.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\MenuSystem\SimpleMenu.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Primitives\DiamondGraph.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Primitives\UICircle.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Primitives\UICornerCut.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Primitives\UIGridRenderer.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Primitives\UILineRenderer.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Primitives\UILineRendererList.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Primitives\UILineTextureRenderer.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Primitives\UIPolygon.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Primitives\UIPrimitiveBase.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Primitives\UISquircle.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\TabNavigationHelper.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\ToolTips\BoundTooltip\BoundTooltipItem.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\ToolTips\BoundTooltip\BoundTooltipTrigger.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\ToolTips\HoverTooltip.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\ToolTips\ToolTip.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\ToolTips\TooltipTrigger.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\UIWindowBase.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Utilities\BezierPath.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Utilities\CLZF2.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Utilities\CableCurve.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Utilities\Circle.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Utilities\DragCorrector.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Utilities\ExtensionsToggle.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Utilities\ExtensionsToggleGroup.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Utilities\ExtentionMethods.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Utilities\InputFieldEnterSubmit.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Utilities\NonDrawingGraphic.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Utilities\PPIViewer.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Utilities\PaginationManager.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Utilities\ReadOnlyAttribute.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Utilities\ReturnKeyTriggersButton.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Utilities\ScrollConflictManager.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Utilities\ScrollRectEx.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Utilities\ScrollRectExtensions.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Utilities\ScrollRectLinker.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Utilities\ScrollRectTweener.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Utilities\SelectableScaler.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Utilities\SetPropertyUtility.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Utilities\ShaderLibrary.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Utilities\TestCompression.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Utilities\UIExtensionMethods.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Utilities\UIExtensionsInputManager.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Utilities\UIHighlightable.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Utilities\UILineConnector.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Utilities\UIScrollToSelection.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Utilities\UIScrollToSelectionXY.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Utilities\UISelectableExtension.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Utilities\UI_InfiniteScroll.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Utilities\UI_MagneticInfiniteScroll.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Utilities\UI_ScrollRectOcclusion.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Utilities\UI_TweenScale.cs
+Assets\Plugins\com.unity.uiextensions\Runtime\Scripts\Utilities\switchToRectTransform.cs
+Assets\Plugins\xNode\Attributes\NodeEnum.cs
+Assets\Plugins\xNode\Node.cs
+Assets\Plugins\xNode\NodeDataCache.cs
+Assets\Plugins\xNode\NodeGraph.cs
+Assets\Plugins\xNode\NodePort.cs
